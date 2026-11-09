@@ -14,107 +14,10 @@
       ],
       "createdAt": "2026-11-03T07:49:21.338Z",
       "updatedAt": "2026-11-03T07:49:21.338Z",
-      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
+      "lastAccessedAt": "2026-11-04T04:51:40.028Z",
       "revision": 1,
       "contentHash": "5578bcdaa7d8d120ac3310f8b3598d74489ec2d8aad90e3f0c464dc7bb7f4093",
       "sizeBytes": 6273,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "5a6e92dc-4397-4d8c-b8b7-5905243cd541",
-      "title": "《视频解说词》44 页 PPT 视觉识读转写：成果索引与可复用工作流",
-      "description": "把 44 页 PPTX 按\"渲染成图逐页看图\"而非抽取文本框的方式转成 Markdown 的完整做法、成果结构、关键产物路径与已知问题。",
-      "status": "active",
-      "filename": "44-ppt-5a6e92dc.md",
-      "relativePath": "documents/active/44-ppt-5a6e92dc.md",
-      "sourcePaths": [
-        "视频解说词.md"
-      ],
-      "sessionIds": [
-        "mnemon-run-v1-0ef1b1e7-74d3-46e8-9500-c19af7c24f30"
-      ],
-      "createdAt": "2026-11-07T13:45:21.516Z",
-      "updatedAt": "2026-11-07T13:45:21.516Z",
-      "lastAccessedAt": "2026-11-08T12:57:11.899Z",
-      "revision": 1,
-      "contentHash": "063c82de7dbdef48464c9bc368c8b78ecbc3d203a7140055f02ba2b923d50330",
-      "sizeBytes": 3860,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "af69aa1c-1889-42dc-8498-ea728419c830",
-      "title": "OpenViking 记忆插件与 dsh-mnemon 的共存分析（本机实测，2026-11）",
-      "description": "本机 @openviking/dsh-memory-plugin 0.5.33 与 dsh-mnemon 0.5.42 的实测状态、重叠点、静默失败（pending 队列膨胀）原因，以及三条处置路径（只留 mnemon / 只留 OpenViking / 用 mnemon-provider-openviking 作后端）。",
-      "status": "active",
-      "filename": "openviking-dsh-mnemon-2026-11-af69aa1c.md",
-      "relativePath": "documents/active/openviking-dsh-mnemon-2026-11-af69aa1c.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-1b019b66-d94a-4139-8d2b-940057a8dedd"
-      ],
-      "createdAt": "2026-11-08T12:37:49.568Z",
-      "updatedAt": "2026-11-08T12:37:49.568Z",
-      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
-      "revision": 1,
-      "contentHash": "ee626919661a5e5855151127e2e7a58c0f36458f42d7f111c54e91393f73d824",
-      "sizeBytes": 8846,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "91943929-4291-4ca0-8170-28e95c15cb55",
-      "title": "dsh-mnemon 记忆系统本机使用与运维指南（desktop profile，2026-11 实机核对）",
-      "description": "dsh-mnemon「记忆系统」的三层结构、三处界面入口、本机实际存储布局与备份方式、容量整理与去重语义、常见坑，以及记忆空间开启的前置条件与建议。",
-      "status": "active",
-      "filename": "dsh-mnemon-desktop-profile-2026-11-91943929.md",
-      "relativePath": "documents/active/dsh-mnemon-desktop-profile-2026-11-91943929.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-0f2cab6d-aa30-4efe-a535-da1271b21fc6"
-      ],
-      "createdAt": "2026-11-08T12:57:29.605Z",
-      "updatedAt": "2026-11-08T12:57:29.605Z",
-      "lastAccessedAt": "2026-11-09T10:42:53.370Z",
-      "revision": 1,
-      "contentHash": "44f9813329b124f903a05d7df2b267abf787cce12b1a77c35d8cc77bcbb2f6bd",
-      "sizeBytes": 6073,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "3a0a9387-3717-4526-8005-bb4051b27d2b",
-      "title": "dsh-mnemon 跨设备记忆同步实操指南（Git 同步 / ZIP 迁移，desktop profile 2026-11 核对）",
-      "description": "dsh-mnemon「记忆系统」在两台电脑之间同步记忆的实操记录：Git 同步的两种凭据方式、默认分支与子目录、合并/删除/冲突语义、「记忆整理」与备份历史、ZIP 迁移，以及隐私红线与常见错误提示。补充既有《本机使用与运维指南》中未覆盖的跨设备同步部分。",
-      "status": "active",
-      "filename": "dsh-mnemon-git-zip-desktop-profile-2026-11-3a0a9387.md",
-      "relativePath": "documents/active/dsh-mnemon-git-zip-desktop-profile-2026-11-3a0a9387.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-3e148fb8-0457-46ec-971b-bccbdb77b696"
-      ],
-      "createdAt": "2026-11-08T13:13:13.814Z",
-      "updatedAt": "2026-11-08T13:13:13.814Z",
-      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
-      "revision": 1,
-      "contentHash": "3ad3b7b61ac64ed7efbe6436cd2cbdb289519be6c87e1307fe3ee79a13a69f52",
-      "sizeBytes": 9403,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "a8d8fd8f-4a4d-49e2-a755-18f0d03c3679",
-      "title": "dsh-mnemon 可选增强组件（通用策略与三个叠加策略）启用评估（desktop profile 2026-11）",
-      "description": "本机「可组合记忆」里默认关闭的 4 个组件（strategy-general / auto-capture / light-context / scoped）各自作用、默认关闭时的实际后果，以及为何当前数据量下建议全部保持关闭、唯一值得试的路径。",
-      "status": "active",
-      "filename": "dsh-mnemon-desktop-profile-2026-11-a8d8fd8f.md",
-      "relativePath": "documents/active/dsh-mnemon-desktop-profile-2026-11-a8d8fd8f.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-cd46410e-e987-49da-aeac-309f608e8879"
-      ],
-      "createdAt": "2026-11-08T13:58:19.332Z",
-      "updatedAt": "2026-11-08T13:58:19.332Z",
-      "lastAccessedAt": "2026-11-08T13:58:19.332Z",
-      "revision": 1,
-      "contentHash": "6f61265020b65f9c7b4a54f396fe5eb5fc066d4254be3b2c9c8ff4b10baa022a",
-      "sizeBytes": 4594,
       "memoryBodyIds": []
     },
     {
@@ -190,7 +93,7 @@
       ],
       "createdAt": "2026-11-04T08:40:48.969Z",
       "updatedAt": "2026-11-04T08:40:48.969Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
+      "lastAccessedAt": "2026-11-09T08:06:42.760Z",
       "revision": 1,
       "contentHash": "b7ad5f9d089281e442738a1087275bceb748ba6f04e5990b395e153eb9cacec8",
       "sizeBytes": 7765,
@@ -213,7 +116,7 @@
       ],
       "createdAt": "2026-11-05T03:21:56.244Z",
       "updatedAt": "2026-11-05T03:21:56.244Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
+      "lastAccessedAt": "2026-11-09T08:06:42.760Z",
       "revision": 1,
       "contentHash": "dbc8ac93dc3db0ca45b452413f7c9780484d35ceca6cc43c4562e6e3585da559",
       "sizeBytes": 6195,
@@ -237,7 +140,7 @@
       ],
       "createdAt": "2026-11-05T04:35:48.151Z",
       "updatedAt": "2026-11-05T04:35:48.151Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
       "revision": 1,
       "contentHash": "9fc79663a0a1dcba085fdda54d168a3869be7c2a5303df1c094f9927296abfe8",
       "sizeBytes": 6044,
@@ -324,7 +227,7 @@
       ],
       "createdAt": "2026-11-09T07:44:03.605Z",
       "updatedAt": "2026-11-09T07:44:03.605Z",
-      "lastAccessedAt": "2026-11-09T07:44:03.605Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
       "revision": 1,
       "contentHash": "8320ab02b529973a284f27728501056742835cee58d20def0f17e28cac0325f0",
       "sizeBytes": 5559,
@@ -365,7 +268,7 @@
       ],
       "createdAt": "2026-11-07T12:56:35.238Z",
       "updatedAt": "2026-11-07T12:56:35.238Z",
-      "lastAccessedAt": "2026-11-09T10:42:53.370Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
       "revision": 1,
       "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
       "sizeBytes": 5382,
@@ -389,7 +292,7 @@
       ],
       "createdAt": "2026-11-07T13:59:06.687Z",
       "updatedAt": "2026-11-07T13:59:06.687Z",
-      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
       "revision": 1,
       "contentHash": "d0480ffde9a9e767e678156e2f41433befe70f8e99d74ef3ef7788cb229238fb",
       "sizeBytes": 5253,
@@ -436,6 +339,103 @@
       "revision": 1,
       "contentHash": "3b6977846308f1aeec05d5c3c4c61c711438460bd184b85d18711eef2ad5201b",
       "sizeBytes": 7913,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "5a6e92dc-4397-4d8c-b8b7-5905243cd541",
+      "title": "《视频解说词》44 页 PPT 视觉识读转写：成果索引与可复用工作流",
+      "description": "把 44 页 PPTX 按\"渲染成图逐页看图\"而非抽取文本框的方式转成 Markdown 的完整做法、成果结构、关键产物路径与已知问题。",
+      "status": "active",
+      "filename": "44-ppt-5a6e92dc.md",
+      "relativePath": "documents/active/44-ppt-5a6e92dc.md",
+      "sourcePaths": [
+        "视频解说词.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-0ef1b1e7-74d3-46e8-9500-c19af7c24f30"
+      ],
+      "createdAt": "2026-11-07T13:45:21.516Z",
+      "updatedAt": "2026-11-07T13:45:21.516Z",
+      "lastAccessedAt": "2026-11-08T12:57:11.899Z",
+      "revision": 1,
+      "contentHash": "063c82de7dbdef48464c9bc368c8b78ecbc3d203a7140055f02ba2b923d50330",
+      "sizeBytes": 3860,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "af69aa1c-1889-42dc-8498-ea728419c830",
+      "title": "OpenViking 记忆插件与 dsh-mnemon 的共存分析（本机实测，2026-11）",
+      "description": "本机 @openviking/dsh-memory-plugin 0.5.33 与 dsh-mnemon 0.5.42 的实测状态、重叠点、静默失败（pending 队列膨胀）原因，以及三条处置路径（只留 mnemon / 只留 OpenViking / 用 mnemon-provider-openviking 作后端）。",
+      "status": "active",
+      "filename": "openviking-dsh-mnemon-2026-11-af69aa1c.md",
+      "relativePath": "documents/active/openviking-dsh-mnemon-2026-11-af69aa1c.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-1b019b66-d94a-4139-8d2b-940057a8dedd"
+      ],
+      "createdAt": "2026-11-08T12:37:49.568Z",
+      "updatedAt": "2026-11-08T12:37:49.568Z",
+      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
+      "revision": 1,
+      "contentHash": "ee626919661a5e5855151127e2e7a58c0f36458f42d7f111c54e91393f73d824",
+      "sizeBytes": 8846,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "91943929-4291-4ca0-8170-28e95c15cb55",
+      "title": "dsh-mnemon 记忆系统本机使用与运维指南（desktop profile，2026-11 实机核对）",
+      "description": "dsh-mnemon「记忆系统」的三层结构、三处界面入口、本机实际存储布局与备份方式、容量整理与去重语义、常见坑，以及记忆空间开启的前置条件与建议。",
+      "status": "active",
+      "filename": "dsh-mnemon-desktop-profile-2026-11-91943929.md",
+      "relativePath": "documents/active/dsh-mnemon-desktop-profile-2026-11-91943929.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-0f2cab6d-aa30-4efe-a535-da1271b21fc6"
+      ],
+      "createdAt": "2026-11-08T12:57:29.605Z",
+      "updatedAt": "2026-11-08T12:57:29.605Z",
+      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
+      "revision": 1,
+      "contentHash": "44f9813329b124f903a05d7df2b267abf787cce12b1a77c35d8cc77bcbb2f6bd",
+      "sizeBytes": 6073,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3a0a9387-3717-4526-8005-bb4051b27d2b",
+      "title": "dsh-mnemon 跨设备记忆同步实操指南（Git 同步 / ZIP 迁移，desktop profile 2026-11 核对）",
+      "description": "dsh-mnemon「记忆系统」在两台电脑之间同步记忆的实操记录：Git 同步的两种凭据方式、默认分支与子目录、合并/删除/冲突语义、「记忆整理」与备份历史、ZIP 迁移，以及隐私红线与常见错误提示。补充既有《本机使用与运维指南》中未覆盖的跨设备同步部分。",
+      "status": "active",
+      "filename": "dsh-mnemon-git-zip-desktop-profile-2026-11-3a0a9387.md",
+      "relativePath": "documents/active/dsh-mnemon-git-zip-desktop-profile-2026-11-3a0a9387.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-3e148fb8-0457-46ec-971b-bccbdb77b696"
+      ],
+      "createdAt": "2026-11-08T13:13:13.814Z",
+      "updatedAt": "2026-11-08T13:13:13.814Z",
+      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
+      "revision": 1,
+      "contentHash": "3ad3b7b61ac64ed7efbe6436cd2cbdb289519be6c87e1307fe3ee79a13a69f52",
+      "sizeBytes": 9403,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a8d8fd8f-4a4d-49e2-a755-18f0d03c3679",
+      "title": "dsh-mnemon 可选增强组件（通用策略与三个叠加策略）启用评估（desktop profile 2026-11）",
+      "description": "本机「可组合记忆」里默认关闭的 4 个组件（strategy-general / auto-capture / light-context / scoped）各自作用、默认关闭时的实际后果，以及为何当前数据量下建议全部保持关闭、唯一值得试的路径。",
+      "status": "active",
+      "filename": "dsh-mnemon-desktop-profile-2026-11-a8d8fd8f.md",
+      "relativePath": "documents/active/dsh-mnemon-desktop-profile-2026-11-a8d8fd8f.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-cd46410e-e987-49da-aeac-309f608e8879"
+      ],
+      "createdAt": "2026-11-08T13:58:19.332Z",
+      "updatedAt": "2026-11-08T13:58:19.332Z",
+      "lastAccessedAt": "2026-11-08T13:58:19.332Z",
+      "revision": 1,
+      "contentHash": "6f61265020b65f9c7b4a54f396fe5eb5fc066d4254be3b2c9c8ff4b10baa022a",
+      "sizeBytes": 4594,
       "memoryBodyIds": []
     }
   ]
