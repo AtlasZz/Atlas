@@ -1,10 +1,13 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "3d74e597e77ddf21a0c37e33c404a9cca1815706da65cbd2173c17d3ca64ce1f",
-    "payload/runtime/USER.md": "9ec3907fe6376ac30525ddbb50c53b81c7c8f0f556b917353e8fc18b3a76c5d9",
-    "payload/runtime/MEMORY.md": "7849984e98d87eb62f2e66fc98e0aae7c9b2ac0eb078b8cd0593432592c6f7b5",
-    "payload/documents/index.json": "bcff683e016f7f9d7cdeed5b39b923ba7984fb15b9a50070f0fbb16c87e7d1d2",
+    "payload/runtime/memories.json": "5a01cd47eb2ed20cbb59f5ca2dcd6fb5952176265badf483fa138b11af038450",
+    "payload/runtime/USER.md": "de1fc44a67b87eb18b68b9fe119ba872f12d28b0f3bfe87587d35a9c3c3b366e",
+    "payload/runtime/MEMORY.md": "1f08b8b788d6b552e59c885e9e94ebc24f1333f12983269a87346cff0a43f310",
+    "payload/documents/index.json": "49a5d8694cd27a145467b5edb1f1eff0317e032cb05681c61be98bedb7bc8d08",
+    "payload/documents/active/dsh-mnemon-openviking-dsh-23a04d2a.md": "41cf54010ac32ea524e29428d117c784287014647cae21a55f2d8a1ade081f73",
+    "payload/documents/active/pptx-markdown-tools-pptx2md-py-fd509833.md": "b595b0bde3a4aab39253a67f90ff64882ef3770884ea5ffac8161801810c777c",
+    "payload/documents/active/pptx-8-d5fe1cd2.md": "7a104a139762d92c42331ce970344707b81efd83637ed8ec7e2c3c4869d78993",
     "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
     "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
     "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
