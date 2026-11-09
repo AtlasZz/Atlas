@@ -1,0 +1,20 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "payload/runtime/memories.json": "3d74e597e77ddf21a0c37e33c404a9cca1815706da65cbd2173c17d3ca64ce1f",
+    "payload/runtime/USER.md": "9ec3907fe6376ac30525ddbb50c53b81c7c8f0f556b917353e8fc18b3a76c5d9",
+    "payload/runtime/MEMORY.md": "7849984e98d87eb62f2e66fc98e0aae7c9b2ac0eb078b8cd0593432592c6f7b5",
+    "payload/documents/index.json": "bcff683e016f7f9d7cdeed5b39b923ba7984fb15b9a50070f0fbb16c87e7d1d2",
+    "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
+    "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
+    "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
+    "payload/documents/active/dsh-im-internal-unknown-2026-11-04-472242a9.md": "7a43d6621910867ade0f01d350a4ad2691430c860b06136512bc279bd7aab481",
+    "payload/documents/active/13-2026-11-9e04acbc.md": "472a44a186838b3d8d23159e146f6ad4b874b79716a1f0be4d4bf435cdba9b23",
+    "payload/documents/active/2026-11-4fbfdde3.md": "8aa7353aa09a6824bb549ce0e1c11e3f1649576b6049fa4a3c67704d31a0756e",
+    "payload/documents/active/2026-11-1a51d726.md": "9e203e5ced735a902942e620f8c6848adfa10005d8e0ee3118ab213349e33009",
+    "payload/documents/active/2026-11-282fc6c8.md": "8b474900608f88af556b13a9f382392c7b31c5d92e191c04e9a352c65673c2de",
+    "payload/documents/active/2026-11-05-97fd5d69.md": "a433b06c336b2f1f51615ff7ea82d66f56dd12322dec8a2371e9346243c47036",
+    "payload/documents/active/electron-2026-11-05-ef2a3b35.md": "5ea3d345e08b5920990f66b551777f62daf2877273c7b1e98c077c44589fdc59",
+    "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
+  }
+}
