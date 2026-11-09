@@ -14,10 +14,331 @@
       ],
       "createdAt": "2026-11-03T07:49:21.338Z",
       "updatedAt": "2026-11-03T07:49:21.338Z",
-      "lastAccessedAt": "2026-11-08T13:58:00.484Z",
+      "lastAccessedAt": "2026-11-04T04:51:40.028Z",
       "revision": 1,
       "contentHash": "5578bcdaa7d8d120ac3310f8b3598d74489ec2d8aad90e3f0c464dc7bb7f4093",
       "sizeBytes": 6273,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "27846090-fd84-4760-afc2-bdce7f6b1ed9",
+      "title": "DSH-IM 微信渠道扫码绑定失败排查记录（本机 desktop profile，2026-11-04）",
+      "description": "本机 @xmanrui/dsh-im 5.10.0 微信扫码绑定失败的实测证据、链路机制、配置/凭据落点与后续排查建议，含鸿蒙 ClawBot 兼容性线索。",
+      "status": "active",
+      "filename": "dsh-im-desktop-profile-2026-11-04-27846090.md",
+      "relativePath": "documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "a5a5787a-7415-4c3a-8f91-351e339820e7"
+      ],
+      "createdAt": "2026-11-04T04:22:47.130Z",
+      "updatedAt": "2026-11-04T04:22:47.130Z",
+      "lastAccessedAt": "2026-11-04T04:51:40.028Z",
+      "revision": 1,
+      "contentHash": "436e2c01567bdb735cf77ecbf0bb61319db70bb5036c4905e89fb90affea907b",
+      "sizeBytes": 6165,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "65c1d5f4-16f2-4433-a194-4082dc6589a2",
+      "title": "DSH-IM 微信渠道换绑成功：-14 stale-token 根因与连接后被动回复限制（2026-11-04 补充）",
+      "description": "更正前一篇微信绑定失败记录：绑定实际可成功，-14 来自服务端旧 bot 替换冲突；并记录连接后主动消息 provider=-2/contextToken=no 的机制、判定与修复步骤。",
+      "status": "active",
+      "filename": "dsh-im-14-stale-token-2026-11-04-65c1d5f4.md",
+      "relativePath": "documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "db465f33-9bbf-4577-9b6c-b66c19e4ccaa"
+      ],
+      "createdAt": "2026-11-04T04:43:47.090Z",
+      "updatedAt": "2026-11-04T04:43:47.090Z",
+      "lastAccessedAt": "2026-11-04T04:51:40.028Z",
+      "revision": 1,
+      "contentHash": "3364ca851f9010fc8f8ec07cd93b8a60027c66bf78a4f70e9b253da1c9e8130b",
+      "sizeBytes": 9493,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "472242a9-d9a3-4048-9090-5c176ce66f9c",
+      "title": "DSH-IM 微信消息 INTERNAL_UNKNOWN：删除工作区导致残留会话绑定（2026-11-04 排查）",
+      "description": "记录删除 DSH「未分组」工作区后微信私聊持续报 INTERNAL_UNKNOWN 的根因（插件 state.json 仍绑定已删除 session）、现场证据、/new 修复步骤与配置兜底，补充既有 dsh-im 微信文档。",
+      "status": "active",
+      "filename": "dsh-im-internal-unknown-2026-11-04-472242a9.md",
+      "relativePath": "documents/active/dsh-im-internal-unknown-2026-11-04-472242a9.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "26a6e7f3-5069-44c9-a149-1117c8fcb480"
+      ],
+      "createdAt": "2026-11-04T04:52:00.049Z",
+      "updatedAt": "2026-11-04T04:52:00.049Z",
+      "lastAccessedAt": "2026-11-04T04:52:00.049Z",
+      "revision": 1,
+      "contentHash": "2bb5d79af34b6500679cab94de648cf6c6c86bc84d03e1801ada7814a5ebf792",
+      "sizeBytes": 4912,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "9e04acbc-fa5b-4d96-b8ca-5573dcd87bb7",
+      "title": "《生态保护红线管理办法（征求意见稿）》浙江省修改意见13条与结构性矛盾梳理（2026-11）",
+      "description": "汇总对《生态保护红线管理办法（征求意见稿）》提出的13条修改意见（条款、建议要点、理由核心）、跨条款结构性矛盾归纳，以及已生成的汇总表xlsx位置。",
+      "status": "active",
+      "filename": "13-2026-11-9e04acbc.md",
+      "relativePath": "documents/active/13-2026-11-9e04acbc.md",
+      "sourcePaths": [
+        "make_redline_xlsx.py",
+        "生态保护红线管理办法修改意见汇总表.xlsx"
+      ],
+      "sessionIds": [
+        "8ef7a36c-519e-4521-9a29-d5cf628f3c59"
+      ],
+      "createdAt": "2026-11-04T08:40:48.969Z",
+      "updatedAt": "2026-11-04T08:40:48.969Z",
+      "lastAccessedAt": "2026-11-09T08:06:42.760Z",
+      "revision": 1,
+      "contentHash": "b7ad5f9d089281e442738a1087275bceb748ba6f04e5990b395e153eb9cacec8",
+      "sizeBytes": 7765,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "4fbfdde3-4137-44d3-8b02-d95491b20a38",
+      "title": "新时期主体功能区战略综述（2026-11）：政策演进链条、制度要点与研究不足",
+      "description": "已完成的中文综述交付物索引与要点存档：主体功能区从\"空间规划\"到\"基础制度\"的政策链条、关键核实数据、浙江\"5+2\"实践、研究述评与四点不足、成文与验证方式及未决引用问题。",
+      "status": "active",
+      "filename": "2026-11-4fbfdde3.md",
+      "relativePath": "documents/active/2026-11-4fbfdde3.md",
+      "sourcePaths": [
+        "新时期主体功能区战略综述.md",
+        "新时期主体功能区战略综述.docx",
+        "_build/md2docx.py"
+      ],
+      "sessionIds": [
+        "da738cb5-5710-4915-8c5b-dface6115355"
+      ],
+      "createdAt": "2026-11-05T03:21:56.244Z",
+      "updatedAt": "2026-11-05T03:21:56.244Z",
+      "lastAccessedAt": "2026-11-09T08:06:42.760Z",
+      "revision": 1,
+      "contentHash": "dbc8ac93dc3db0ca45b452413f7c9780484d35ceca6cc43c4562e6e3585da559",
+      "sizeBytes": 6195,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "1a51d726-18dc-4a91-8c54-24a483be4cc6",
+      "title": "浙江“主体功能区战略融入国土空间规划”实施方式三段材料与试点经费预算源件（2026-11）",
+      "description": "续写“工作思路”材料“实施方式”三节（分类型/抓试点/强保障）的成稿结构、设计决策、试点经费预算 PDF 的 OCR 还原要点与未决事项，供后续修改与报送使用。",
+      "status": "active",
+      "filename": "2026-11-1a51d726.md",
+      "relativePath": "documents/active/2026-11-1a51d726.md",
+      "sourcePaths": [
+        "主体功能区战略融入规划体系_实施方式.md",
+        "支持试点及市县浙江功能区经费预算说明.md",
+        "_build/ocr_ordered.txt",
+        "_build/pages"
+      ],
+      "sessionIds": [
+        "c0843e6c-5aae-4be2-9f0c-c5dc3463fc7f"
+      ],
+      "createdAt": "2026-11-05T04:35:48.151Z",
+      "updatedAt": "2026-11-05T04:35:48.151Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
+      "revision": 1,
+      "contentHash": "9fc79663a0a1dcba085fdda54d168a3869be7c2a5303df1c094f9927296abfe8",
+      "sizeBytes": 6044,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "282fc6c8-e646-40e5-9fef-9d6af97bd180",
+      "title": "浙江“主体功能区战略融入国土空间规划”实施方式三节修订口径（2026-11 定稿）",
+      "description": "记录用户修订后的三节定稿口径：五类主体功能新分类与五工程、每节 1—2 段限制、动态维护与近期实施规划在三条控制线／规划分区／详规单元上的分工，并标明取代既有文档的哪些结论。",
+      "status": "active",
+      "filename": "2026-11-282fc6c8.md",
+      "relativePath": "documents/active/2026-11-282fc6c8.md",
+      "sourcePaths": [
+        "主体功能区战略融入规划体系_实施方式.md",
+        "_build/研究材料_前半部分初稿.md"
+      ],
+      "sessionIds": [
+        "f99cb867-8199-4157-baa2-3ec0f6c335fd"
+      ],
+      "createdAt": "2026-11-05T04:48:18.000Z",
+      "updatedAt": "2026-11-05T04:48:18.000Z",
+      "lastAccessedAt": "2026-11-09T05:57:00.032Z",
+      "revision": 1,
+      "contentHash": "2bdb9ae08483663d0b074cac433151c3f11952a783efffd76212cf943bdafac8",
+      "sizeBytes": 4930,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "97fd5d69-7082-4c08-a2cb-33e04066a447",
+      "title": "浙江“主体功能区战略融入国土空间规划”工作思路第三部分用户终稿口径（2026-11-05）",
+      "description": "记录用户最后写定的“三、实施方式”终稿结构与口径变化：三节新标题、五大工程正式定名、“1361”与“5+X”详规术语、（三）两段式保障逻辑，并标明取代 282fc6c8 所录定稿口径的哪些结论。",
+      "status": "active",
+      "filename": "2026-11-05-97fd5d69.md",
+      "relativePath": "documents/active/2026-11-05-97fd5d69.md",
+      "sourcePaths": [
+        "工作思路_第三部分_实施方式.md"
+      ],
+      "sessionIds": [
+        "f4db9e73-ce20-4459-a98a-61aba0880177"
+      ],
+      "createdAt": "2026-11-05T06:55:29.024Z",
+      "updatedAt": "2026-11-05T06:55:29.024Z",
+      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
+      "revision": 1,
+      "contentHash": "18a550a1a39ad6b8bc966b642a31d0012934ef716a50d23728af56844968c2c4",
+      "sizeBytes": 5790,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "ef2a3b35-1cbf-4254-a99a-908fbb29f809",
+      "title": "内置浏览器 Electron 运行时下载超时：根因、镜像修复与验证（2026-11-05）",
+      "description": "dsh-builtin-browser 0.5.6 内置载体首次使用准备 Electron 时 180s 超时的排查结论与镜像安装步骤：默认 GitHub 源约 39 KB/s 无法完成 158 MB 下载，改用 npmmirror 后 10s 装好并通过 runtime-status 与实际开页验证。",
+      "status": "active",
+      "filename": "electron-2026-11-05-ef2a3b35.md",
+      "relativePath": "documents/active/electron-2026-11-05-ef2a3b35.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "5134a330-c35b-4f3b-a3b7-c695b3dd43b9"
+      ],
+      "createdAt": "2026-11-05T07:24:45.416Z",
+      "updatedAt": "2026-11-05T07:24:45.416Z",
+      "lastAccessedAt": "2026-11-05T07:24:45.416Z",
+      "revision": 1,
+      "contentHash": "bbc866cdc950ff243816b3a8672de0500c97b9042e12fb25b775bccc48f0dace",
+      "sizeBytes": 4570,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3efde35a-b061-4654-8264-da586a9d4c66",
+      "title": "《生态保护红线管理办法（征求意见稿）》2026-11 新版扫描件转写、版本差异与转写方法",
+      "description": "2026-11 新版征求意见稿（纯扫描 PDF，20页）的 Markdown 转写产出、与旧版21条稿的结构差异、原件内部矛盾，以及本机无 PDF/OCR 库时的 Windows OCR 转写流程与环境限制。",
+      "status": "active",
+      "filename": "2026-11-3efde35a.md",
+      "relativePath": "documents/active/2026-11-3efde35a.md",
+      "sourcePaths": [
+        "生态保护红线管理办法（征求意见稿）.md",
+        "生态保护红线管理办法修改意见汇总表.xlsx",
+        "_pdf_ocr_clean.txt",
+        "_pdf_pages",
+        "ocr_all.ps1"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-c194dcf4-b20c-4dd9-9e41-d2ddc3a70be9"
+      ],
+      "createdAt": "2026-11-09T07:44:03.605Z",
+      "updatedAt": "2026-11-09T07:44:03.605Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
+      "revision": 1,
+      "contentHash": "8320ab02b529973a284f27728501056742835cee58d20def0f17e28cac0325f0",
+      "sizeBytes": 5559,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "23a04d2a-546b-43e6-bf27-77f492c81d42",
+      "title": "dsh-mnemon 与 OpenViking DSH 插件：区别、共存风险与选型结论",
+      "description": "2026-11-07 调研结论：OpenViking dsh-memory-plugin 是远程记忆服务桥接层，dsh-mnemon 是本地优先完整记忆框架；OpenViking 同时是 mnemon 的 provider。含本机安装审计、双装冲突分析与选型建议。",
+      "status": "active",
+      "filename": "dsh-mnemon-openviking-dsh-23a04d2a.md",
+      "relativePath": "documents/active/dsh-mnemon-openviking-dsh-23a04d2a.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-1978b46a-f364-43f6-bc9c-967b80f0499b"
+      ],
+      "createdAt": "2026-11-07T10:16:11.801Z",
+      "updatedAt": "2026-11-07T10:16:11.801Z",
+      "lastAccessedAt": "2026-11-07T10:16:11.801Z",
+      "revision": 1,
+      "contentHash": "e3a2e7afbf25fc93c937482ea6c8a370531bcdf6be22b6d0b3038f6ab742bdef",
+      "sizeBytes": 6295,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "fd509833-8f1a-4a69-9543-ddbf871d3e6c",
+      "title": "离线 PPTX→Markdown 转换方案（tools/pptx2md.py）与验证方法",
+      "description": "2026-11-07 结论：本机无法访问 PyPI 安装 markitdown，改用 python-pptx 自建 pptx2md.py 输出 MarkItDown 兼容 Markdown；含标题推断、阅读顺序、画布外元素、备注与断链校验方法，以及 LibreOffice 与沙箱 ACL 两个环境障碍。",
+      "status": "active",
+      "filename": "pptx-markdown-tools-pptx2md-py-fd509833.md",
+      "relativePath": "documents/active/pptx-markdown-tools-pptx2md-py-fd509833.md",
+      "sourcePaths": [
+        "tools/pptx2md.py",
+        "【20260820zhu】0820配置方案和组合供应交流.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-d263419f-0942-4698-b15b-aa138a9e26e6"
+      ],
+      "createdAt": "2026-11-07T12:56:35.238Z",
+      "updatedAt": "2026-11-07T12:56:35.238Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
+      "revision": 1,
+      "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
+      "sizeBytes": 5382,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "d5fe1cd2-8daf-4bce-bfc1-9ea294687eba",
+      "title": "PPTX「版式讲解」转换器：三层设计、8 类版式模板与质量校验",
+      "description": "layoute-aware 讲解稿生成器的分层实现（pptx_layout/pptx_narrate/verify_md）、8 类版式讲解模板、结构总览聚合规则、page-miss/doc-miss 质量口径与五个 python-pptx 陷阱；配套 skill pptx-layout-narration。",
+      "status": "active",
+      "filename": "pptx-8-d5fe1cd2.md",
+      "relativePath": "documents/active/pptx-8-d5fe1cd2.md",
+      "sourcePaths": [
+        "tools/pptx_layout.py",
+        "tools/pptx_narrate.py",
+        "tools/verify_md.py",
+        "【20260820zhu】0820配置方案和组合供应交流_版式讲解.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-b3509f0b-eabd-4679-b365-b9e268c7d271"
+      ],
+      "createdAt": "2026-11-07T13:59:06.687Z",
+      "updatedAt": "2026-11-07T13:59:06.687Z",
+      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
+      "revision": 1,
+      "contentHash": "d0480ffde9a9e767e678156e2f41433befe70f8e99d74ef3ef7788cb229238fb",
+      "sizeBytes": 5253,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "984e686e-cb48-4c1b-a9bf-5fdaddd9ac4c",
+      "title": "生态保护红线意见汇总表（121条）：新增章节列、按章节重排与重复意见分组校正（2026-11）",
+      "description": "《生态保护红线管理办法（征求意见稿）》121条修改意见汇总表的结构改造：新增「章节」列、按章条顺序重排并重编号、12组重复意见底色的序号映射校正与核验结果，含脚本路径与未决格式选项。",
+      "status": "active",
+      "filename": "121-2026-11-984e686e.md",
+      "relativePath": "documents/active/121-2026-11-984e686e.md",
+      "sourcePaths": [
+        "生态保护红线管理办法修改意见汇总表_含采纳情况.xlsx",
+        "_reorder_xlsx.py",
+        "_fix_dup2.py",
+        "_verify_xlsx.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-1615aa23-3b33-4e4b-9358-4c61066ffa9e"
+      ],
+      "createdAt": "2026-11-09T08:06:58.193Z",
+      "updatedAt": "2026-11-09T08:06:58.193Z",
+      "lastAccessedAt": "2026-11-09T08:06:58.193Z",
+      "revision": 1,
+      "contentHash": "3cfb0af8d8c248a9a01ba164639fee0d92c837442e740f0608d9bc0849383163",
+      "sizeBytes": 5082,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3f49f70e-ac62-4abc-9bd9-03006d4355eb",
+      "title": "dsh-pdf-mineru 插件能力口径：Pipeline/VLM 双引擎、识别方式与 Markdown 产物导出",
+      "description": "dsh-pdf-mineru 0.2.3 的两轴模型（流水线/VLM）、识别方式（自动/文本层/OCR）在各 Provider 上的可用性、请求参数落点、工具限制，以及从本地缓存 full.md 导出 Markdown 的操作路径。",
+      "status": "active",
+      "filename": "dsh-pdf-mineru-pipeline-vlm-markdown-3f49f70e.md",
+      "relativePath": "documents/active/dsh-pdf-mineru-pipeline-vlm-markdown-3f49f70e.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-b4a6f828-1506-48bd-a03a-ca3fc4708233"
+      ],
+      "createdAt": "2026-11-09T09:22:19.569Z",
+      "updatedAt": "2026-11-09T09:22:19.569Z",
+      "lastAccessedAt": "2026-11-09T09:22:19.569Z",
+      "revision": 1,
+      "contentHash": "3b6977846308f1aeec05d5c3c4c61c711438460bd184b85d18711eef2ad5201b",
+      "sizeBytes": 7913,
       "memoryBodyIds": []
     },
     {
@@ -115,284 +436,6 @@
       "revision": 1,
       "contentHash": "6f61265020b65f9c7b4a54f396fe5eb5fc066d4254be3b2c9c8ff4b10baa022a",
       "sizeBytes": 4594,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "27846090-fd84-4760-afc2-bdce7f6b1ed9",
-      "title": "DSH-IM 微信渠道扫码绑定失败排查记录（本机 desktop profile，2026-11-04）",
-      "description": "本机 @xmanrui/dsh-im 5.10.0 微信扫码绑定失败的实测证据、链路机制、配置/凭据落点与后续排查建议，含鸿蒙 ClawBot 兼容性线索。",
-      "status": "active",
-      "filename": "dsh-im-desktop-profile-2026-11-04-27846090.md",
-      "relativePath": "documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "a5a5787a-7415-4c3a-8f91-351e339820e7"
-      ],
-      "createdAt": "2026-11-04T04:22:47.130Z",
-      "updatedAt": "2026-11-04T04:22:47.130Z",
-      "lastAccessedAt": "2026-11-04T04:51:40.028Z",
-      "revision": 1,
-      "contentHash": "436e2c01567bdb735cf77ecbf0bb61319db70bb5036c4905e89fb90affea907b",
-      "sizeBytes": 6165,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "65c1d5f4-16f2-4433-a194-4082dc6589a2",
-      "title": "DSH-IM 微信渠道换绑成功：-14 stale-token 根因与连接后被动回复限制（2026-11-04 补充）",
-      "description": "更正前一篇微信绑定失败记录：绑定实际可成功，-14 来自服务端旧 bot 替换冲突；并记录连接后主动消息 provider=-2/contextToken=no 的机制、判定与修复步骤。",
-      "status": "active",
-      "filename": "dsh-im-14-stale-token-2026-11-04-65c1d5f4.md",
-      "relativePath": "documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "db465f33-9bbf-4577-9b6c-b66c19e4ccaa"
-      ],
-      "createdAt": "2026-11-04T04:43:47.090Z",
-      "updatedAt": "2026-11-04T04:43:47.090Z",
-      "lastAccessedAt": "2026-11-04T04:51:40.028Z",
-      "revision": 1,
-      "contentHash": "3364ca851f9010fc8f8ec07cd93b8a60027c66bf78a4f70e9b253da1c9e8130b",
-      "sizeBytes": 9493,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "472242a9-d9a3-4048-9090-5c176ce66f9c",
-      "title": "DSH-IM 微信消息 INTERNAL_UNKNOWN：删除工作区导致残留会话绑定（2026-11-04 排查）",
-      "description": "记录删除 DSH「未分组」工作区后微信私聊持续报 INTERNAL_UNKNOWN 的根因（插件 state.json 仍绑定已删除 session）、现场证据、/new 修复步骤与配置兜底，补充既有 dsh-im 微信文档。",
-      "status": "active",
-      "filename": "dsh-im-internal-unknown-2026-11-04-472242a9.md",
-      "relativePath": "documents/active/dsh-im-internal-unknown-2026-11-04-472242a9.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "26a6e7f3-5069-44c9-a149-1117c8fcb480"
-      ],
-      "createdAt": "2026-11-04T04:52:00.049Z",
-      "updatedAt": "2026-11-04T04:52:00.049Z",
-      "lastAccessedAt": "2026-11-04T04:52:00.049Z",
-      "revision": 1,
-      "contentHash": "2bb5d79af34b6500679cab94de648cf6c6c86bc84d03e1801ada7814a5ebf792",
-      "sizeBytes": 4912,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "9e04acbc-fa5b-4d96-b8ca-5573dcd87bb7",
-      "title": "《生态保护红线管理办法（征求意见稿）》浙江省修改意见13条与结构性矛盾梳理（2026-11）",
-      "description": "汇总对《生态保护红线管理办法（征求意见稿）》提出的13条修改意见（条款、建议要点、理由核心）、跨条款结构性矛盾归纳，以及已生成的汇总表xlsx位置。",
-      "status": "active",
-      "filename": "13-2026-11-9e04acbc.md",
-      "relativePath": "documents/active/13-2026-11-9e04acbc.md",
-      "sourcePaths": [
-        "make_redline_xlsx.py",
-        "生态保护红线管理办法修改意见汇总表.xlsx"
-      ],
-      "sessionIds": [
-        "8ef7a36c-519e-4521-9a29-d5cf628f3c59"
-      ],
-      "createdAt": "2026-11-04T08:40:48.969Z",
-      "updatedAt": "2026-11-04T08:40:48.969Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
-      "revision": 1,
-      "contentHash": "b7ad5f9d089281e442738a1087275bceb748ba6f04e5990b395e153eb9cacec8",
-      "sizeBytes": 7765,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "4fbfdde3-4137-44d3-8b02-d95491b20a38",
-      "title": "新时期主体功能区战略综述（2026-11）：政策演进链条、制度要点与研究不足",
-      "description": "已完成的中文综述交付物索引与要点存档：主体功能区从\"空间规划\"到\"基础制度\"的政策链条、关键核实数据、浙江\"5+2\"实践、研究述评与四点不足、成文与验证方式及未决引用问题。",
-      "status": "active",
-      "filename": "2026-11-4fbfdde3.md",
-      "relativePath": "documents/active/2026-11-4fbfdde3.md",
-      "sourcePaths": [
-        "新时期主体功能区战略综述.md",
-        "新时期主体功能区战略综述.docx",
-        "_build/md2docx.py"
-      ],
-      "sessionIds": [
-        "da738cb5-5710-4915-8c5b-dface6115355"
-      ],
-      "createdAt": "2026-11-05T03:21:56.244Z",
-      "updatedAt": "2026-11-05T03:21:56.244Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
-      "revision": 1,
-      "contentHash": "dbc8ac93dc3db0ca45b452413f7c9780484d35ceca6cc43c4562e6e3585da559",
-      "sizeBytes": 6195,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "1a51d726-18dc-4a91-8c54-24a483be4cc6",
-      "title": "浙江“主体功能区战略融入国土空间规划”实施方式三段材料与试点经费预算源件（2026-11）",
-      "description": "续写“工作思路”材料“实施方式”三节（分类型/抓试点/强保障）的成稿结构、设计决策、试点经费预算 PDF 的 OCR 还原要点与未决事项，供后续修改与报送使用。",
-      "status": "active",
-      "filename": "2026-11-1a51d726.md",
-      "relativePath": "documents/active/2026-11-1a51d726.md",
-      "sourcePaths": [
-        "主体功能区战略融入规划体系_实施方式.md",
-        "支持试点及市县浙江功能区经费预算说明.md",
-        "_build/ocr_ordered.txt",
-        "_build/pages"
-      ],
-      "sessionIds": [
-        "c0843e6c-5aae-4be2-9f0c-c5dc3463fc7f"
-      ],
-      "createdAt": "2026-11-05T04:35:48.151Z",
-      "updatedAt": "2026-11-05T04:35:48.151Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
-      "revision": 1,
-      "contentHash": "9fc79663a0a1dcba085fdda54d168a3869be7c2a5303df1c094f9927296abfe8",
-      "sizeBytes": 6044,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "282fc6c8-e646-40e5-9fef-9d6af97bd180",
-      "title": "浙江“主体功能区战略融入国土空间规划”实施方式三节修订口径（2026-11 定稿）",
-      "description": "记录用户修订后的三节定稿口径：五类主体功能新分类与五工程、每节 1—2 段限制、动态维护与近期实施规划在三条控制线／规划分区／详规单元上的分工，并标明取代既有文档的哪些结论。",
-      "status": "active",
-      "filename": "2026-11-282fc6c8.md",
-      "relativePath": "documents/active/2026-11-282fc6c8.md",
-      "sourcePaths": [
-        "主体功能区战略融入规划体系_实施方式.md",
-        "_build/研究材料_前半部分初稿.md"
-      ],
-      "sessionIds": [
-        "f99cb867-8199-4157-baa2-3ec0f6c335fd"
-      ],
-      "createdAt": "2026-11-05T04:48:18.000Z",
-      "updatedAt": "2026-11-05T04:48:18.000Z",
-      "lastAccessedAt": "2026-11-09T05:57:00.032Z",
-      "revision": 1,
-      "contentHash": "2bdb9ae08483663d0b074cac433151c3f11952a783efffd76212cf943bdafac8",
-      "sizeBytes": 4930,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "97fd5d69-7082-4c08-a2cb-33e04066a447",
-      "title": "浙江“主体功能区战略融入国土空间规划”工作思路第三部分用户终稿口径（2026-11-05）",
-      "description": "记录用户最后写定的“三、实施方式”终稿结构与口径变化：三节新标题、五大工程正式定名、“1361”与“5+X”详规术语、（三）两段式保障逻辑，并标明取代 282fc6c8 所录定稿口径的哪些结论。",
-      "status": "active",
-      "filename": "2026-11-05-97fd5d69.md",
-      "relativePath": "documents/active/2026-11-05-97fd5d69.md",
-      "sourcePaths": [
-        "工作思路_第三部分_实施方式.md"
-      ],
-      "sessionIds": [
-        "f4db9e73-ce20-4459-a98a-61aba0880177"
-      ],
-      "createdAt": "2026-11-05T06:55:29.024Z",
-      "updatedAt": "2026-11-05T06:55:29.024Z",
-      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
-      "revision": 1,
-      "contentHash": "18a550a1a39ad6b8bc966b642a31d0012934ef716a50d23728af56844968c2c4",
-      "sizeBytes": 5790,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "ef2a3b35-1cbf-4254-a99a-908fbb29f809",
-      "title": "内置浏览器 Electron 运行时下载超时：根因、镜像修复与验证（2026-11-05）",
-      "description": "dsh-builtin-browser 0.5.6 内置载体首次使用准备 Electron 时 180s 超时的排查结论与镜像安装步骤：默认 GitHub 源约 39 KB/s 无法完成 158 MB 下载，改用 npmmirror 后 10s 装好并通过 runtime-status 与实际开页验证。",
-      "status": "active",
-      "filename": "electron-2026-11-05-ef2a3b35.md",
-      "relativePath": "documents/active/electron-2026-11-05-ef2a3b35.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "5134a330-c35b-4f3b-a3b7-c695b3dd43b9"
-      ],
-      "createdAt": "2026-11-05T07:24:45.416Z",
-      "updatedAt": "2026-11-05T07:24:45.416Z",
-      "lastAccessedAt": "2026-11-05T07:24:45.416Z",
-      "revision": 1,
-      "contentHash": "bbc866cdc950ff243816b3a8672de0500c97b9042e12fb25b775bccc48f0dace",
-      "sizeBytes": 4570,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "3efde35a-b061-4654-8264-da586a9d4c66",
-      "title": "《生态保护红线管理办法（征求意见稿）》2026-11 新版扫描件转写、版本差异与转写方法",
-      "description": "2026-11 新版征求意见稿（纯扫描 PDF，20页）的 Markdown 转写产出、与旧版21条稿的结构差异、原件内部矛盾，以及本机无 PDF/OCR 库时的 Windows OCR 转写流程与环境限制。",
-      "status": "active",
-      "filename": "2026-11-3efde35a.md",
-      "relativePath": "documents/active/2026-11-3efde35a.md",
-      "sourcePaths": [
-        "生态保护红线管理办法（征求意见稿）.md",
-        "生态保护红线管理办法修改意见汇总表.xlsx",
-        "_pdf_ocr_clean.txt",
-        "_pdf_pages",
-        "ocr_all.ps1"
-      ],
-      "sessionIds": [
-        "mnemon-run-v1-c194dcf4-b20c-4dd9-9e41-d2ddc3a70be9"
-      ],
-      "createdAt": "2026-11-09T07:44:03.605Z",
-      "updatedAt": "2026-11-09T07:44:03.605Z",
-      "lastAccessedAt": "2026-11-09T07:44:03.605Z",
-      "revision": 1,
-      "contentHash": "8320ab02b529973a284f27728501056742835cee58d20def0f17e28cac0325f0",
-      "sizeBytes": 5559,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "23a04d2a-546b-43e6-bf27-77f492c81d42",
-      "title": "dsh-mnemon 与 OpenViking DSH 插件：区别、共存风险与选型结论",
-      "description": "2026-11-07 调研结论：OpenViking dsh-memory-plugin 是远程记忆服务桥接层，dsh-mnemon 是本地优先完整记忆框架；OpenViking 同时是 mnemon 的 provider。含本机安装审计、双装冲突分析与选型建议。",
-      "status": "active",
-      "filename": "dsh-mnemon-openviking-dsh-23a04d2a.md",
-      "relativePath": "documents/active/dsh-mnemon-openviking-dsh-23a04d2a.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-1978b46a-f364-43f6-bc9c-967b80f0499b"
-      ],
-      "createdAt": "2026-11-07T10:16:11.801Z",
-      "updatedAt": "2026-11-07T10:16:11.801Z",
-      "lastAccessedAt": "2026-11-07T10:16:11.801Z",
-      "revision": 1,
-      "contentHash": "e3a2e7afbf25fc93c937482ea6c8a370531bcdf6be22b6d0b3038f6ab742bdef",
-      "sizeBytes": 6295,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "fd509833-8f1a-4a69-9543-ddbf871d3e6c",
-      "title": "离线 PPTX→Markdown 转换方案（tools/pptx2md.py）与验证方法",
-      "description": "2026-11-07 结论：本机无法访问 PyPI 安装 markitdown，改用 python-pptx 自建 pptx2md.py 输出 MarkItDown 兼容 Markdown；含标题推断、阅读顺序、画布外元素、备注与断链校验方法，以及 LibreOffice 与沙箱 ACL 两个环境障碍。",
-      "status": "active",
-      "filename": "pptx-markdown-tools-pptx2md-py-fd509833.md",
-      "relativePath": "documents/active/pptx-markdown-tools-pptx2md-py-fd509833.md",
-      "sourcePaths": [
-        "tools/pptx2md.py",
-        "【20260820zhu】0820配置方案和组合供应交流.md"
-      ],
-      "sessionIds": [
-        "mnemon-run-v1-d263419f-0942-4698-b15b-aa138a9e26e6"
-      ],
-      "createdAt": "2026-11-07T12:56:35.238Z",
-      "updatedAt": "2026-11-07T12:56:35.238Z",
-      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
-      "revision": 1,
-      "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
-      "sizeBytes": 5382,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "d5fe1cd2-8daf-4bce-bfc1-9ea294687eba",
-      "title": "PPTX「版式讲解」转换器：三层设计、8 类版式模板与质量校验",
-      "description": "layoute-aware 讲解稿生成器的分层实现（pptx_layout/pptx_narrate/verify_md）、8 类版式讲解模板、结构总览聚合规则、page-miss/doc-miss 质量口径与五个 python-pptx 陷阱；配套 skill pptx-layout-narration。",
-      "status": "active",
-      "filename": "pptx-8-d5fe1cd2.md",
-      "relativePath": "documents/active/pptx-8-d5fe1cd2.md",
-      "sourcePaths": [
-        "tools/pptx_layout.py",
-        "tools/pptx_narrate.py",
-        "tools/verify_md.py",
-        "【20260820zhu】0820配置方案和组合供应交流_版式讲解.md"
-      ],
-      "sessionIds": [
-        "mnemon-run-v1-b3509f0b-eabd-4679-b365-b9e268c7d271"
-      ],
-      "createdAt": "2026-11-07T13:59:06.687Z",
-      "updatedAt": "2026-11-07T13:59:06.687Z",
-      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
-      "revision": 1,
-      "contentHash": "d0480ffde9a9e767e678156e2f41433befe70f8e99d74ef3ef7788cb229238fb",
-      "sizeBytes": 5253,
       "memoryBodyIds": []
     }
   ]

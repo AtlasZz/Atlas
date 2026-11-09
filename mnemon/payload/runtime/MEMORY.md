@@ -13,3 +13,5 @@ Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\Users\zhouy\.dsh\
 PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。
 §
 PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\Users\zhouy\.dsh\skills\pptx-layout-narration\scripts\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\harness\tools\`。
+§
+文档转写时手写批注默认不识别、不转换（用户明确要求记住）。
