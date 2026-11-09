@@ -2,71 +2,6 @@
   "version": 1,
   "documents": [
     {
-      "id": "23a04d2a-546b-43e6-bf27-77f492c81d42",
-      "title": "dsh-mnemon 与 OpenViking DSH 插件：区别、共存风险与选型结论",
-      "description": "2026-11-07 调研结论：OpenViking dsh-memory-plugin 是远程记忆服务桥接层，dsh-mnemon 是本地优先完整记忆框架；OpenViking 同时是 mnemon 的 provider。含本机安装审计、双装冲突分析与选型建议。",
-      "status": "active",
-      "filename": "dsh-mnemon-openviking-dsh-23a04d2a.md",
-      "relativePath": "documents/active/dsh-mnemon-openviking-dsh-23a04d2a.md",
-      "sourcePaths": [],
-      "sessionIds": [
-        "mnemon-run-v1-1978b46a-f364-43f6-bc9c-967b80f0499b"
-      ],
-      "createdAt": "2026-11-07T10:16:11.801Z",
-      "updatedAt": "2026-11-07T10:16:11.801Z",
-      "lastAccessedAt": "2026-11-07T10:16:11.801Z",
-      "revision": 1,
-      "contentHash": "e3a2e7afbf25fc93c937482ea6c8a370531bcdf6be22b6d0b3038f6ab742bdef",
-      "sizeBytes": 6295,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "fd509833-8f1a-4a69-9543-ddbf871d3e6c",
-      "title": "离线 PPTX→Markdown 转换方案（tools/pptx2md.py）与验证方法",
-      "description": "2026-11-07 结论：本机无法访问 PyPI 安装 markitdown，改用 python-pptx 自建 pptx2md.py 输出 MarkItDown 兼容 Markdown；含标题推断、阅读顺序、画布外元素、备注与断链校验方法，以及 LibreOffice 与沙箱 ACL 两个环境障碍。",
-      "status": "active",
-      "filename": "pptx-markdown-tools-pptx2md-py-fd509833.md",
-      "relativePath": "documents/active/pptx-markdown-tools-pptx2md-py-fd509833.md",
-      "sourcePaths": [
-        "tools/pptx2md.py",
-        "【20260820zhu】0820配置方案和组合供应交流.md"
-      ],
-      "sessionIds": [
-        "mnemon-run-v1-d263419f-0942-4698-b15b-aa138a9e26e6"
-      ],
-      "createdAt": "2026-11-07T12:56:35.238Z",
-      "updatedAt": "2026-11-07T12:56:35.238Z",
-      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
-      "revision": 1,
-      "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
-      "sizeBytes": 5382,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "d5fe1cd2-8daf-4bce-bfc1-9ea294687eba",
-      "title": "PPTX「版式讲解」转换器：三层设计、8 类版式模板与质量校验",
-      "description": "layoute-aware 讲解稿生成器的分层实现（pptx_layout/pptx_narrate/verify_md）、8 类版式讲解模板、结构总览聚合规则、page-miss/doc-miss 质量口径与五个 python-pptx 陷阱；配套 skill pptx-layout-narration。",
-      "status": "active",
-      "filename": "pptx-8-d5fe1cd2.md",
-      "relativePath": "documents/active/pptx-8-d5fe1cd2.md",
-      "sourcePaths": [
-        "tools/pptx_layout.py",
-        "tools/pptx_narrate.py",
-        "tools/verify_md.py",
-        "【20260820zhu】0820配置方案和组合供应交流_版式讲解.md"
-      ],
-      "sessionIds": [
-        "mnemon-run-v1-b3509f0b-eabd-4679-b365-b9e268c7d271"
-      ],
-      "createdAt": "2026-11-07T13:59:06.687Z",
-      "updatedAt": "2026-11-07T13:59:06.687Z",
-      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
-      "revision": 1,
-      "contentHash": "d0480ffde9a9e767e678156e2f41433befe70f8e99d74ef3ef7788cb229238fb",
-      "sizeBytes": 5253,
-      "memoryBodyIds": []
-    },
-    {
       "id": "05ff9c79-b7b2-470a-aed4-f615c77654f8",
       "title": "dsh-univer-office 使用指南（本机 desktop profile 验证）",
       "description": "dsh-univer-office 0.4.0 在本机 DSH desktop profile 的安装位置、14 个 univer_* 工具、工作流（草稿 worktree→审阅→确认/导出）、已完成端到端冒烟验证的结论与已知边界。",
@@ -158,7 +93,7 @@
       ],
       "createdAt": "2026-11-04T08:40:48.969Z",
       "updatedAt": "2026-11-04T08:40:48.969Z",
-      "lastAccessedAt": "2026-11-09T05:57:00.032Z",
+      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
       "revision": 1,
       "contentHash": "b7ad5f9d089281e442738a1087275bceb748ba6f04e5990b395e153eb9cacec8",
       "sizeBytes": 7765,
@@ -181,7 +116,7 @@
       ],
       "createdAt": "2026-11-05T03:21:56.244Z",
       "updatedAt": "2026-11-05T03:21:56.244Z",
-      "lastAccessedAt": "2026-11-05T06:53:31.563Z",
+      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
       "revision": 1,
       "contentHash": "dbc8ac93dc3db0ca45b452413f7c9780484d35ceca6cc43c4562e6e3585da559",
       "sizeBytes": 6195,
@@ -205,7 +140,7 @@
       ],
       "createdAt": "2026-11-05T04:35:48.151Z",
       "updatedAt": "2026-11-05T04:35:48.151Z",
-      "lastAccessedAt": "2026-11-09T05:57:00.032Z",
+      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
       "revision": 1,
       "contentHash": "9fc79663a0a1dcba085fdda54d168a3869be7c2a5303df1c094f9927296abfe8",
       "sizeBytes": 6044,
@@ -248,7 +183,7 @@
       ],
       "createdAt": "2026-11-05T06:55:29.024Z",
       "updatedAt": "2026-11-05T06:55:29.024Z",
-      "lastAccessedAt": "2026-11-09T05:57:00.032Z",
+      "lastAccessedAt": "2026-11-09T07:43:48.720Z",
       "revision": 1,
       "contentHash": "18a550a1a39ad6b8bc966b642a31d0012934ef716a50d23728af56844968c2c4",
       "sizeBytes": 5790,
@@ -271,6 +206,96 @@
       "revision": 1,
       "contentHash": "bbc866cdc950ff243816b3a8672de0500c97b9042e12fb25b775bccc48f0dace",
       "sizeBytes": 4570,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3efde35a-b061-4654-8264-da586a9d4c66",
+      "title": "《生态保护红线管理办法（征求意见稿）》2026-11 新版扫描件转写、版本差异与转写方法",
+      "description": "2026-11 新版征求意见稿（纯扫描 PDF，20页）的 Markdown 转写产出、与旧版21条稿的结构差异、原件内部矛盾，以及本机无 PDF/OCR 库时的 Windows OCR 转写流程与环境限制。",
+      "status": "active",
+      "filename": "2026-11-3efde35a.md",
+      "relativePath": "documents/active/2026-11-3efde35a.md",
+      "sourcePaths": [
+        "生态保护红线管理办法（征求意见稿）.md",
+        "生态保护红线管理办法修改意见汇总表.xlsx",
+        "_pdf_ocr_clean.txt",
+        "_pdf_pages",
+        "ocr_all.ps1"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-c194dcf4-b20c-4dd9-9e41-d2ddc3a70be9"
+      ],
+      "createdAt": "2026-11-09T07:44:03.605Z",
+      "updatedAt": "2026-11-09T07:44:03.605Z",
+      "lastAccessedAt": "2026-11-09T07:44:03.605Z",
+      "revision": 1,
+      "contentHash": "8320ab02b529973a284f27728501056742835cee58d20def0f17e28cac0325f0",
+      "sizeBytes": 5559,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "23a04d2a-546b-43e6-bf27-77f492c81d42",
+      "title": "dsh-mnemon 与 OpenViking DSH 插件：区别、共存风险与选型结论",
+      "description": "2026-11-07 调研结论：OpenViking dsh-memory-plugin 是远程记忆服务桥接层，dsh-mnemon 是本地优先完整记忆框架；OpenViking 同时是 mnemon 的 provider。含本机安装审计、双装冲突分析与选型建议。",
+      "status": "active",
+      "filename": "dsh-mnemon-openviking-dsh-23a04d2a.md",
+      "relativePath": "documents/active/dsh-mnemon-openviking-dsh-23a04d2a.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-1978b46a-f364-43f6-bc9c-967b80f0499b"
+      ],
+      "createdAt": "2026-11-07T10:16:11.801Z",
+      "updatedAt": "2026-11-07T10:16:11.801Z",
+      "lastAccessedAt": "2026-11-07T10:16:11.801Z",
+      "revision": 1,
+      "contentHash": "e3a2e7afbf25fc93c937482ea6c8a370531bcdf6be22b6d0b3038f6ab742bdef",
+      "sizeBytes": 6295,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "fd509833-8f1a-4a69-9543-ddbf871d3e6c",
+      "title": "离线 PPTX→Markdown 转换方案（tools/pptx2md.py）与验证方法",
+      "description": "2026-11-07 结论：本机无法访问 PyPI 安装 markitdown，改用 python-pptx 自建 pptx2md.py 输出 MarkItDown 兼容 Markdown；含标题推断、阅读顺序、画布外元素、备注与断链校验方法，以及 LibreOffice 与沙箱 ACL 两个环境障碍。",
+      "status": "active",
+      "filename": "pptx-markdown-tools-pptx2md-py-fd509833.md",
+      "relativePath": "documents/active/pptx-markdown-tools-pptx2md-py-fd509833.md",
+      "sourcePaths": [
+        "tools/pptx2md.py",
+        "【20260820zhu】0820配置方案和组合供应交流.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-d263419f-0942-4698-b15b-aa138a9e26e6"
+      ],
+      "createdAt": "2026-11-07T12:56:35.238Z",
+      "updatedAt": "2026-11-07T12:56:35.238Z",
+      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
+      "revision": 1,
+      "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
+      "sizeBytes": 5382,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "d5fe1cd2-8daf-4bce-bfc1-9ea294687eba",
+      "title": "PPTX「版式讲解」转换器：三层设计、8 类版式模板与质量校验",
+      "description": "layoute-aware 讲解稿生成器的分层实现（pptx_layout/pptx_narrate/verify_md）、8 类版式讲解模板、结构总览聚合规则、page-miss/doc-miss 质量口径与五个 python-pptx 陷阱；配套 skill pptx-layout-narration。",
+      "status": "active",
+      "filename": "pptx-8-d5fe1cd2.md",
+      "relativePath": "documents/active/pptx-8-d5fe1cd2.md",
+      "sourcePaths": [
+        "tools/pptx_layout.py",
+        "tools/pptx_narrate.py",
+        "tools/verify_md.py",
+        "【20260820zhu】0820配置方案和组合供应交流_版式讲解.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-b3509f0b-eabd-4679-b365-b9e268c7d271"
+      ],
+      "createdAt": "2026-11-07T13:59:06.687Z",
+      "updatedAt": "2026-11-07T13:59:06.687Z",
+      "lastAccessedAt": "2026-11-07T14:32:20.498Z",
+      "revision": 1,
+      "contentHash": "d0480ffde9a9e767e678156e2f41433befe70f8e99d74ef3ef7788cb229238fb",
+      "sizeBytes": 5253,
       "memoryBodyIds": []
     }
   ]
