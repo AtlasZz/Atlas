@@ -2,54 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "content": "Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\\Users\\zhouy\\.dsh\\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:40.523Z",
-      "updated_at": "2026-11-07T13:57:40.523Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:40.523Z"
-      }
-    },
-    {
-      "content": "PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:42.388Z",
-      "updated_at": "2026-11-07T13:57:42.388Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:42.388Z"
-      }
-    },
-    {
-      "content": "PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\\Users\\zhouy\\.dsh\\skills\\pptx-layout-narration\\scripts\\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\\harness\\tools\\`。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:44.142Z",
-      "updated_at": "2026-11-07T13:57:44.142Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:44.142Z"
-      }
-    },
-    {
-      "content": "交付长文档类成果（如把 PPT/PDF 转成 Markdown 报告）时，用户期望落到磁盘上的实际文件（.md），而不只是对话里的正文；说“只输出 Markdown 正文”是指回答里不要加解释性前后缀，不等于不要文件。",
-      "target": "user",
-      "importance": "normal",
-      "created_at": "2026-11-07T14:35:12.990Z",
-      "updated_at": "2026-11-07T14:35:12.990Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T14:35:12.990Z"
-      }
-    },
-    {
       "content": "本人现任浙江省国土空间规划研究院任职。长期深耕国土空间规划与自然资源管理一线，主要研究领域和方向国土空间规划、生态保护红线用途管制、自然资源资产配置",
       "target": "user",
       "importance": "normal",
@@ -158,6 +110,54 @@
       }
     },
     {
+      "content": "Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\\Users\\zhouy\\.dsh\\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:40.523Z",
+      "updated_at": "2026-11-07T13:57:40.523Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:40.523Z"
+      }
+    },
+    {
+      "content": "PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:42.388Z",
+      "updated_at": "2026-11-07T13:57:42.388Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:42.388Z"
+      }
+    },
+    {
+      "content": "PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\\Users\\zhouy\\.dsh\\skills\\pptx-layout-narration\\scripts\\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\\harness\\tools\\`。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:44.142Z",
+      "updated_at": "2026-11-07T13:57:44.142Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:44.142Z"
+      }
+    },
+    {
+      "content": "交付长文档类成果（如把 PPT/PDF 转成 Markdown 报告）时，用户期望落到磁盘上的实际文件（.md），而不只是对话里的正文；说“只输出 Markdown 正文”是指回答里不要加解释性前后缀，不等于不要文件。",
+      "target": "user",
+      "importance": "normal",
+      "created_at": "2026-11-07T14:35:12.990Z",
+      "updated_at": "2026-11-07T14:35:12.990Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T14:35:12.990Z"
+      }
+    },
+    {
       "content": "文档转写时手写批注默认不识别、不转换（用户明确要求记住）。",
       "target": "memory",
       "importance": "critical",
@@ -215,6 +215,30 @@
         "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
         "label": "DESKTOP-A9VSBJ5",
         "at": "2026-11-10T06:07:38.556Z"
+      }
+    },
+    {
+      "content": "DSH sessions 目录里的 mnemon-* 子目录分两类（来自 dsh-mnemon 插件）：mnemon-task-v1-* 由 runTaskAgent（lib/index.js:13729-13758）创建的后台顶层任务 Agent（无 parentSession、origin=subagent 以让侧栏隐藏），只有 1 帧 header、约 468 字节，任务标题如「Mnemon · Memory maintenance / Skills / Ask Agent / Document / Save to memory」；mnemon-run-v1-* 由 withReservedChild（lib/index.js:8553-8572）预留的 subagent 子会话（有 parentSession、delegationDepth=1），内容是「[dsh-mnemon:delegated review] …」这类记忆捕获评审，几十 KB。二者 cwd 都是工作区根，创建时被 DSH 自动 attachSession 进工作区 sessionIds。记忆本体在 %USERPROFILE%\\.dsh\\knowledge\\knowledge.sqlite（+notes.sqlite），不依赖这些日志。删除时要同时清 %USERPROFILE%\\.dsh\\storages\\session_projcache\\sessions\\mnemon-*.json（session.list 会拿缓存元数据列出持久化空白会话），并从 workspace.json sessionIds 移除对应 id。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-10T08:04:36.863Z",
+      "updated_at": "2026-11-10T08:04:36.863Z",
+      "origin": {
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
+        "label": "DESKTOP-A9VSBJ5",
+        "at": "2026-11-10T08:04:36.863Z"
+      }
+    },
+    {
+      "content": "DSH 的会话 id 有两种形态，用于区分来源：普通根会话 = `session-<uuid>`（首帧 header 无 origin 字段）；DSH 原生子代理（subagent / subagent_fork 派生的子任务）= 裸 `<uuid>`，首帧 header 带 `origin:\"subagent\"` 且 `parentSession` 指向父的 session-<uuid>。二者 cwd 相同，创建时都会被 attachSession 进工作区 sessionIds；侧栏 sessionVisible 排除 origin===\"subagent\"，所以子代理不在侧栏单列，只出现在父会话的委派列表里。本机（2026-11-10）--D-Workspace-DSHarness-- 下 56 个目录：31 在名单（21 根会话 + 10 子代理），25 未登记（24 个 mnemon-* + session-2bb04a98 一个真实会话）。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-10T08:16:20.833Z",
+      "updated_at": "2026-11-10T08:16:20.833Z",
+      "origin": {
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
+        "label": "DESKTOP-A9VSBJ5",
+        "at": "2026-11-10T08:16:20.833Z"
       }
     }
   ]
