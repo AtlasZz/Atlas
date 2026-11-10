@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "7845fac6690b75108453aa95c54626883f90aaf92a9256f3e09039ce0443ce8a",
     "payload/runtime/USER.md": "20943eed7781bf379ee224a2dd960c37664fce70bbf1e289e6b6395307f874a4",
     "payload/runtime/MEMORY.md": "895f01bc53a0ee6de447afe305fb5a844d06bf2037eaf3cd57eb9591241b794a",
-    "payload/documents/index.json": "38881938f8749aac8b7f6ad78de571345113f1d9bfd83b824ef07f2da33926cd",
+    "payload/documents/index.json": "39f068f784e68ad63db67c6ada6c7a7a7fd74accc484eb00e27312fe9d9baf10",
     "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
     "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
     "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
@@ -28,6 +28,7 @@
     "payload/documents/active/dsh-mnemon-desktop-profile-2026-11-a8d8fd8f.md": "d2b180beb9879812c68b77f3573619faf2d1c0d25fae37e7f306ef5760c05107",
     "payload/documents/active/dsh-config-manager-webdav-503-blockedtemporarily-dc99f112.md": "6e17288bf72ad45a31184cb7a4f4a1ab1dd6dd00337c691832f360b2fd66037a",
     "payload/documents/active/deepwhale-cn-dsh-file-organizer-0-1-1-28082b12.md": "a0a530e702537b3d87b88b9fd1435416b2b2b96a0dc8139286b9f5ad2dc49c29",
+    "payload/documents/active/dsh-sessions-d08f20c4.md": "c690e3268471783c15f93ae7ceb93b3819b143af07af185e832e0368ca76af1a",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

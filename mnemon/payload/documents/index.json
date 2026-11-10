@@ -14,7 +14,7 @@
       ],
       "createdAt": "2026-11-03T07:49:21.338Z",
       "updatedAt": "2026-11-03T07:49:21.338Z",
-      "lastAccessedAt": "2026-11-10T02:40:53.396Z",
+      "lastAccessedAt": "2026-11-10T04:42:59.283Z",
       "revision": 1,
       "contentHash": "5578bcdaa7d8d120ac3310f8b3598d74489ec2d8aad90e3f0c464dc7bb7f4093",
       "sizeBytes": 6273,
@@ -71,7 +71,7 @@
       ],
       "createdAt": "2026-11-04T04:52:00.049Z",
       "updatedAt": "2026-11-04T04:52:00.049Z",
-      "lastAccessedAt": "2026-11-04T04:52:00.049Z",
+      "lastAccessedAt": "2026-11-10T04:42:59.283Z",
       "revision": 1,
       "contentHash": "2bb5d79af34b6500679cab94de648cf6c6c86bc84d03e1801ada7814a5ebf792",
       "sizeBytes": 4912,
@@ -335,7 +335,7 @@
       ],
       "createdAt": "2026-11-09T09:22:19.569Z",
       "updatedAt": "2026-11-09T09:22:19.569Z",
-      "lastAccessedAt": "2026-11-10T03:40:34.055Z",
+      "lastAccessedAt": "2026-11-10T04:42:59.283Z",
       "revision": 1,
       "contentHash": "3b6977846308f1aeec05d5c3c4c61c711438460bd184b85d18711eef2ad5201b",
       "sizeBytes": 7913,
@@ -413,7 +413,7 @@
       ],
       "createdAt": "2026-11-08T13:13:13.814Z",
       "updatedAt": "2026-11-08T13:13:13.814Z",
-      "lastAccessedAt": "2026-11-10T03:40:34.055Z",
+      "lastAccessedAt": "2026-11-10T04:42:59.283Z",
       "revision": 1,
       "contentHash": "3ad3b7b61ac64ed7efbe6436cd2cbdb289519be6c87e1307fe3ee79a13a69f52",
       "sizeBytes": 9403,
@@ -485,6 +485,25 @@
       "revision": 1,
       "contentHash": "b1305070e854f48f3f006958539c90bd8d10b1c8623a0e9c5b04d7afe7c7d7cf",
       "sizeBytes": 8131,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "d08f20c4-349e-4f30-a9c6-69b48441be95",
+      "title": "DSH 会话跨设备迁移：为何直接拷 sessions 目录看不见，以及导入/导出与路径映射的正确路径",
+      "description": "DSH 侧栏会话可见性的三条硬约束（首帧 cwd 与目录项目键一致、workspace.json 的 path+sessionIds 登记、日志版本匹配），以及用 dsh-config-manager 导出 ZIP、导入时做路径映射的推荐流程与常见坑（本机 v0.2.0-rc.2 / v4 日志核查）。",
+      "status": "active",
+      "filename": "dsh-sessions-d08f20c4.md",
+      "relativePath": "documents/active/dsh-sessions-d08f20c4.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-1710892e-82c5-4b40-837d-e7e1a71f59a4"
+      ],
+      "createdAt": "2026-11-10T04:43:17.684Z",
+      "updatedAt": "2026-11-10T04:43:17.684Z",
+      "lastAccessedAt": "2026-11-10T04:43:17.684Z",
+      "revision": 1,
+      "contentHash": "a869f41371daf48a147f8110ba94c5349356f8ac789c3a41375f8e3a8e7d2990",
+      "sizeBytes": 6505,
       "memoryBodyIds": []
     }
   ]
