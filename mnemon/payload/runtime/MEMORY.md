@@ -1,3 +1,9 @@
+Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\Users\zhouy\.dsh\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。
+§
+PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。
+§
+PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\Users\zhouy\.dsh\skills\pptx-layout-narration\scripts\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\harness\tools\`。
+§
 DSH 默认工作区记录（%USERPROFILE%\.dsh\storages\workspace.json 的 tables.workspaces）被删除后不会自动重建：global.defaultWorkspaceId 作为「首次使用身份」被保留（源码注释 retained after its registration is deleted），initializeDefault() 见到该字段就直接返回 entities.get(id)，不做创建。恢复办法：GUI 侧栏「添加工作区」重新登记 %USERPROFILE%\Documents\deepseek-harness\default-workspace（title 为自动标题 default-workspace 时 UI 会本地化显示为「默认工作区」）。
 §
 本机 DSH profile（%USERPROFILE%\.dsh\profiles\desktop）装的 dsh-skill-market@1.0.0 会在运行时改写品牌：侧栏字标「deepseek harness」→「兴湘智能体」、鲸鱼 logo→橙色图、favicon 同换。常量硬编码在 node_modules/dsh-skill-market/src/client.js：BRAND_NAME_TEXT(L1159)、BRAND_LOGO_DATA_URL(L1156)、mountBrand(L1245) 调用点 L1306，带 MutationObserver 自愈；插件无 config 开关，只能改代码或卸载。用户 2026-11-04 明确选择暂不修改。
@@ -7,11 +13,5 @@ DSH 默认工作区记录（%USERPROFILE%\.dsh\storages\workspace.json 的 table
 本机 DSH 沙箱下 pip 安装第三方包会报 Errno 13：根因是 os.mkdir(mode=0o700) 创建的目录对该进程不可写，pip 用 tempfile.mkdtemp 建的 pip-unpack-* 临时目录因此写不进去（0o755/0o777 正常）。解法：在工作区放 sitecustomize.py 把 os.mkdir 的 0o700 改写为 0o755，PYTHONPATH 指向它，再 pip install --target 到工作区内目录并把该目录加入 PYTHONPATH。另：markitdown 对纯扫描件 PDF 返回空文本（PDF 无 /Font 层），需先用 pypdf 提取内嵌 JPEG 页图、再用 rapidocr_onnxruntime OCR。
 §
 国土空间总体规划调整只有"动态维护"和"规划修编（修改）"两条法定路径。
-§
-Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\Users\zhouy\.dsh\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。
-§
-PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。
-§
-PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\Users\zhouy\.dsh\skills\pptx-layout-narration\scripts\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\harness\tools\`。
 §
 文档转写时手写批注默认不识别、不转换（用户明确要求记住）。
