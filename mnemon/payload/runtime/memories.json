@@ -2,15 +2,51 @@
   "version": 1,
   "entries": [
     {
-      "content": "本人现任浙江省国土空间规划研究院绿色生态所副所长。长期深耕国土空间规划与自然资源管理一线，主要研究领域和方向国土空间规划、生态保护红线用途管制、自然资源资产配置",
+      "content": "Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\\Users\\zhouy\\.dsh\\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:40.523Z",
+      "updated_at": "2026-11-07T13:57:40.523Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:40.523Z"
+      }
+    },
+    {
+      "content": "PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:42.388Z",
+      "updated_at": "2026-11-07T13:57:42.388Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:42.388Z"
+      }
+    },
+    {
+      "content": "PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\\Users\\zhouy\\.dsh\\skills\\pptx-layout-narration\\scripts\\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\\harness\\tools\\`。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:44.142Z",
+      "updated_at": "2026-11-07T13:57:44.142Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:44.142Z"
+      }
+    },
+    {
+      "content": "交付长文档类成果（如把 PPT/PDF 转成 Markdown 报告）时，用户期望落到磁盘上的实际文件（.md），而不只是对话里的正文；说“只输出 Markdown 正文”是指回答里不要加解释性前后缀，不等于不要文件。",
       "target": "user",
       "importance": "normal",
-      "created_at": "2026-11-03T08:06:47.281Z",
-      "updated_at": "2026-11-03T08:06:47.281Z",
+      "created_at": "2026-11-07T14:35:12.990Z",
+      "updated_at": "2026-11-07T14:35:12.990Z",
       "origin": {
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
-        "label": "ZY-HOME",
-        "at": "2026-11-03T08:06:47.281Z"
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T14:35:12.990Z"
       }
     },
     {
@@ -122,54 +158,6 @@
       }
     },
     {
-      "content": "Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\\Users\\zhouy\\.dsh\\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:40.523Z",
-      "updated_at": "2026-11-07T13:57:40.523Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:40.523Z"
-      }
-    },
-    {
-      "content": "PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:42.388Z",
-      "updated_at": "2026-11-07T13:57:42.388Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:42.388Z"
-      }
-    },
-    {
-      "content": "PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\\Users\\zhouy\\.dsh\\skills\\pptx-layout-narration\\scripts\\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\\harness\\tools\\`。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:44.142Z",
-      "updated_at": "2026-11-07T13:57:44.142Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:44.142Z"
-      }
-    },
-    {
-      "content": "交付长文档类成果（如把 PPT/PDF 转成 Markdown 报告）时，用户期望落到磁盘上的实际文件（.md），而不只是对话里的正文；说“只输出 Markdown 正文”是指回答里不要加解释性前后缀，不等于不要文件。",
-      "target": "user",
-      "importance": "normal",
-      "created_at": "2026-11-07T14:35:12.990Z",
-      "updated_at": "2026-11-07T14:35:12.990Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T14:35:12.990Z"
-      }
-    },
-    {
       "content": "文档转写时手写批注默认不识别、不转换（用户明确要求记住）。",
       "target": "memory",
       "importance": "critical",
@@ -191,6 +179,18 @@
         "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
         "label": "DESKTOP-A9VSBJ5",
         "at": "2026-11-09T08:53:47.761Z"
+      }
+    },
+    {
+      "content": "本人现任浙江省国土空间规划研究院绿色生态所副所长。长期深耕国土空间规划与自然资源管理一线，主要研究领域和方向国土空间规划、生态保护红线用途管制、自然资源资产配置",
+      "target": "user",
+      "importance": "normal",
+      "created_at": "2026-11-03T08:06:47.281Z",
+      "updated_at": "2026-11-03T08:06:47.281Z",
+      "origin": {
+        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
+        "label": "ZY-HOME",
+        "at": "2026-11-03T08:06:47.281Z"
       }
     },
     {
