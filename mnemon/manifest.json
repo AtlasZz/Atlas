@@ -2,7 +2,7 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-10T11:07:24.190Z",
+  "exportedAt": "2026-11-10T11:28:18.750Z",
   "source": {
     "plugin": "dsh-mnemon",
     "pluginVersion": "0.5.43"
@@ -36,11 +36,11 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-10T11:07:24.190Z",
+    "pushedAt": "2026-11-10T11:28:18.750Z",
     "machine": {
-      "id": "c6567d91-6aa9-4134-b32b-0371372c456d",
-      "label": "ZY-LENOVO",
-      "createdAt": "2026-11-09T06:54:51.839Z"
+      "id": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
+      "label": "DESKTOP-A9VSBJ5",
+      "createdAt": "2026-11-09T06:45:38.463Z"
     },
     "tombstones": []
   }
