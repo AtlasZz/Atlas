@@ -2,54 +2,6 @@
   "version": 1,
   "entries": [
     {
-      "content": "Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\\Users\\zhouy\\.dsh\\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:40.523Z",
-      "updated_at": "2026-11-07T13:57:40.523Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:40.523Z"
-      }
-    },
-    {
-      "content": "PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:42.388Z",
-      "updated_at": "2026-11-07T13:57:42.388Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:42.388Z"
-      }
-    },
-    {
-      "content": "PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\\Users\\zhouy\\.dsh\\skills\\pptx-layout-narration\\scripts\\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\\harness\\tools\\`。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-07T13:57:44.142Z",
-      "updated_at": "2026-11-07T13:57:44.142Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T13:57:44.142Z"
-      }
-    },
-    {
-      "content": "交付长文档类成果（如把 PPT/PDF 转成 Markdown 报告）时，用户期望落到磁盘上的实际文件（.md），而不只是对话里的正文；说“只输出 Markdown 正文”是指回答里不要加解释性前后缀，不等于不要文件。",
-      "target": "user",
-      "importance": "normal",
-      "created_at": "2026-11-07T14:35:12.990Z",
-      "updated_at": "2026-11-07T14:35:12.990Z",
-      "origin": {
-        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
-        "label": "ZY-LENOVO",
-        "at": "2026-11-07T14:35:12.990Z"
-      }
-    },
-    {
       "content": "本人现任浙江省国土空间规划研究院任职。长期深耕国土空间规划与自然资源管理一线，主要研究领域和方向国土空间规划、生态保护红线用途管制、自然资源资产配置",
       "target": "user",
       "importance": "normal",
@@ -158,6 +110,54 @@
       }
     },
     {
+      "content": "Windows 上 DSH 沙箱（workspace-write）默认禁止写 `C:\\Users\\zhouy\\.dsh\\skills`，把脚本拷进技能目录需用 pwsh 的 sandbox_permissions=danger-full-access；而 create_skill 工具本身可以正常写入该目录。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:40.523Z",
+      "updated_at": "2026-11-07T13:57:40.523Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:40.523Z"
+      }
+    },
+    {
+      "content": "PowerShell 的 `Get-Content` 按 GBK 解码 UTF-8 无 BOM 文件，中文会乱码；判断中文文件内容要用 read/grep 工具，写文件用 write/edit，别用 PowerShell 读写文本。Python 运行前设 `$env:PYTHONIOENCODING='utf-8'`。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:42.388Z",
+      "updated_at": "2026-11-07T13:57:42.388Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:42.388Z"
+      }
+    },
+    {
+      "content": "PPT「版式讲解」转换器（Python + python-pptx）已固化为 skill `pptx-layout-narration`，脚本在 `C:\\Users\\zhouy\\.dsh\\skills\\pptx-layout-narration\\scripts\\`（pptx_layout.py 解析层 / pptx_narrate.py 讲解生成 / verify_md.py 校验）。工作副本在 `D:\\harness\\tools\\`。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-07T13:57:44.142Z",
+      "updated_at": "2026-11-07T13:57:44.142Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T13:57:44.142Z"
+      }
+    },
+    {
+      "content": "交付长文档类成果（如把 PPT/PDF 转成 Markdown 报告）时，用户期望落到磁盘上的实际文件（.md），而不只是对话里的正文；说“只输出 Markdown 正文”是指回答里不要加解释性前后缀，不等于不要文件。",
+      "target": "user",
+      "importance": "normal",
+      "created_at": "2026-11-07T14:35:12.990Z",
+      "updated_at": "2026-11-07T14:35:12.990Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-07T14:35:12.990Z"
+      }
+    },
+    {
       "content": "文档转写时手写批注默认不识别、不转换（用户明确要求记住）。",
       "target": "memory",
       "importance": "critical",
@@ -203,6 +203,18 @@
         "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
         "label": "DESKTOP-A9VSBJ5",
         "at": "2026-11-10T02:40:08.918Z"
+      }
+    },
+    {
+      "content": "DSH 新建会话不是凭空造 id，而是复用当前工作区的\"空白占位会话\"（客户端 create(opts.sessionId)，app.asar:407130-407145）；服务端 hasApiSessionSubagentOwner 见到首帧 origin===\"subagent\" 即抛 session/agent-busy「is owned by subagent routing」（app.asar:408268-408281），且该检查先于\"已开始/归属不符→改为新建\"的兜底。mnemon 插件委派任务留下的 mnemon-task-v1-* 会话正是只有 1 帧 header、origin=subagent 的空壳（约 468-492 字节），一旦被登记进 workspace.json 的 sessionIds 并充当空白占位，新建会话必挂。修法：退出 DSH→备份 workspace.json→从 sessionIds 移除这些 id→删除对应目录（真实内容在 mnemon-run-v1-*，不受影响）。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-10T06:07:38.556Z",
+      "updated_at": "2026-11-10T06:07:38.556Z",
+      "origin": {
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
+        "label": "DESKTOP-A9VSBJ5",
+        "at": "2026-11-10T06:07:38.556Z"
       }
     }
   ]
