@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "c8d479f4f70115a1a4028462c3b0b31034ca6acb0b75c7f161b9b4b8450872d0",
     "payload/runtime/USER.md": "20943eed7781bf379ee224a2dd960c37664fce70bbf1e289e6b6395307f874a4",
     "payload/runtime/MEMORY.md": "a1f6e9c6ca241773ec08c59f9b222729f7cb047916411c45a757ea14d9e747fb",
-    "payload/documents/index.json": "a12ed30badbc1dcd08cf14fcecf81d16e5e0396abfd9d49f1118d36e151a12e2",
+    "payload/documents/index.json": "4f22a7c79a77929e70f9fed9862863bf460659369e65cd94dc759e34961194d2",
     "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
     "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
     "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
@@ -35,6 +35,7 @@
     "payload/documents/active/6-2026-11-efb7f6a7.md": "7f4cd88bf12c5cada6322a2690619d85bdc2cf77e641ae54f3f2b21d7695c034",
     "payload/documents/active/pdf-markdown-pdf2md-py-1ce17fd4.md": "397f29653538c111b357f5e8b5fc8bac6df5398ae28fe335f58a7103f6f4a25d",
     "payload/documents/active/2026-11-cf565461.md": "7dea974d2b0870e2408e15d8bacec5958b76e1da913c9bf762a1be33fc7422ca",
+    "payload/documents/active/docx-2026-11-021c3a66.md": "83b6167e1a3e459eb88edb0ca2e952525ab31d932dbd0169b6b018aff9fd2ce8",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

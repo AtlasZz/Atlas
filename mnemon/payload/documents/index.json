@@ -93,7 +93,7 @@
       ],
       "createdAt": "2026-11-04T08:40:48.969Z",
       "updatedAt": "2026-11-04T08:40:48.969Z",
-      "lastAccessedAt": "2026-11-09T08:06:42.760Z",
+      "lastAccessedAt": "2026-11-11T01:26:35.661Z",
       "revision": 1,
       "contentHash": "b7ad5f9d089281e442738a1087275bceb748ba6f04e5990b395e153eb9cacec8",
       "sizeBytes": 7765,
@@ -227,7 +227,7 @@
       ],
       "createdAt": "2026-11-09T07:44:03.605Z",
       "updatedAt": "2026-11-09T07:44:03.605Z",
-      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
+      "lastAccessedAt": "2026-11-11T01:26:35.661Z",
       "revision": 1,
       "contentHash": "8320ab02b529973a284f27728501056742835cee58d20def0f17e28cac0325f0",
       "sizeBytes": 5559,
@@ -316,7 +316,7 @@
       ],
       "createdAt": "2026-11-09T08:06:58.193Z",
       "updatedAt": "2026-11-09T08:06:58.193Z",
-      "lastAccessedAt": "2026-11-09T08:06:58.193Z",
+      "lastAccessedAt": "2026-11-11T01:26:35.661Z",
       "revision": 1,
       "contentHash": "3cfb0af8d8c248a9a01ba164639fee0d92c837442e740f0608d9bc0849383163",
       "sizeBytes": 5082,
@@ -579,7 +579,7 @@
       ],
       "createdAt": "2026-11-10T10:36:12.061Z",
       "updatedAt": "2026-11-10T10:36:12.061Z",
-      "lastAccessedAt": "2026-11-10T10:36:12.061Z",
+      "lastAccessedAt": "2026-11-11T01:03:09.710Z",
       "revision": 1,
       "contentHash": "6ca9a55170eaf813907b7906528c5262ce4d848ca7c23e9600021b6229c3efc9",
       "sizeBytes": 7901,
@@ -623,10 +623,34 @@
       ],
       "createdAt": "2026-11-10T12:05:10.270Z",
       "updatedAt": "2026-11-10T12:05:10.270Z",
-      "lastAccessedAt": "2026-11-10T12:05:10.270Z",
+      "lastAccessedAt": "2026-11-11T01:03:09.710Z",
       "revision": 1,
       "contentHash": "a045f019b971ea69f820c24770bbef415e354f9092db319400177145044f9985",
       "sizeBytes": 4742,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "021c3a66-f517-4400-9a9e-acacdaabeda2",
+      "title": "生态保护红线修改意见成文与 DOCX 排版：最终取舍、成文规范与实施记录（2026-11）",
+      "description": "127条意见定稿后的最终取舍、30条报部意见的体例与交付位置，以及 Markdown→DOCX 的排版参数、脚本和环境限制。",
+      "status": "active",
+      "filename": "docx-2026-11-021c3a66.md",
+      "relativePath": "documents/active/docx-2026-11-021c3a66.md",
+      "sourcePaths": [
+        "_md2docx.py",
+        "_probe_md.py",
+        "关于《生态保护红线管理办法（征求意见稿）》的修改意见（报部稿）.md",
+        "不同意见取舍说明（供留存）.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-a6c1bb98-a52d-49c7-83af-3dee9ea09764"
+      ],
+      "createdAt": "2026-11-11T01:03:31.777Z",
+      "updatedAt": "2026-11-11T01:03:31.777Z",
+      "lastAccessedAt": "2026-11-11T01:26:35.661Z",
+      "revision": 1,
+      "contentHash": "df3ada11c8f46c6b2db86ac6a495a8c8acd1d5bd2845120ad29cca4e7a96a532",
+      "sizeBytes": 7107,
       "memoryBodyIds": []
     }
   ]
