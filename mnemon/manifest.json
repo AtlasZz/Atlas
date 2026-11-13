@@ -2,10 +2,10 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-13T07:17:10.153Z",
+  "exportedAt": "2026-11-13T10:45:23.668Z",
   "source": {
     "plugin": "dsh-mnemon",
-    "pluginVersion": "0.5.44"
+    "pluginVersion": "0.5.43"
   },
   "components": [
     "runtime",
@@ -21,9 +21,9 @@
     },
     {
       "component": "documents",
-      "files": 34,
-      "bytes": 245337,
-      "items": 33
+      "files": 37,
+      "bytes": 265629,
+      "items": 36
     },
     {
       "component": "memory-spaces",
@@ -36,11 +36,11 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-13T07:17:10.153Z",
+    "pushedAt": "2026-11-13T10:45:23.668Z",
     "machine": {
-      "id": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
-      "label": "DESKTOP-A9VSBJ5",
-      "createdAt": "2026-11-09T06:45:38.463Z"
+      "id": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
+      "label": "ZY-HOME",
+      "createdAt": "2026-11-08T12:21:15.545Z"
     },
     "tombstones": []
   }
