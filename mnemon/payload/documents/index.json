@@ -14,7 +14,7 @@
       ],
       "createdAt": "2026-11-03T07:49:21.338Z",
       "updatedAt": "2026-11-03T07:49:21.338Z",
-      "lastAccessedAt": "2026-11-10T04:42:59.283Z",
+      "lastAccessedAt": "2026-11-16T06:27:12.783Z",
       "revision": 1,
       "contentHash": "5578bcdaa7d8d120ac3310f8b3598d74489ec2d8aad90e3f0c464dc7bb7f4093",
       "sizeBytes": 6273,
@@ -500,7 +500,7 @@
       ],
       "createdAt": "2026-11-10T04:43:17.684Z",
       "updatedAt": "2026-11-10T04:43:17.684Z",
-      "lastAccessedAt": "2026-11-10T08:35:57.861Z",
+      "lastAccessedAt": "2026-11-16T06:27:12.783Z",
       "revision": 1,
       "contentHash": "a869f41371daf48a147f8110ba94c5349356f8ac789c3a41375f8e3a8e7d2990",
       "sizeBytes": 6505,
@@ -816,7 +816,7 @@
       ],
       "createdAt": "2026-11-13T12:06:43.269Z",
       "updatedAt": "2026-11-13T12:06:43.269Z",
-      "lastAccessedAt": "2026-11-13T12:06:43.269Z",
+      "lastAccessedAt": "2026-11-16T06:27:12.783Z",
       "revision": 1,
       "contentHash": "edab639708903b7ceea6bf64c47480ecbf4ec01aa0163fc66cda73b766e173bb",
       "sizeBytes": 6192,
@@ -843,6 +843,25 @@
       "revision": 1,
       "contentHash": "69ca87f7a7ed9b746b4d7f2b7b67a42d37d6ced8c21205257c459e4c8b7f2356",
       "sizeBytes": 3738,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "ef833a05-2c7d-49ce-affa-e81abd0baf53",
+      "title": "院内 OA「外出登记」自动化实测：页面结构、字段机制与提交流程（dsh-ego-browser 技能）",
+      "description": "把院 OA 外出登记做成 DSH 技能的实测记录：三层 iframe 里的表单字段 id 与 laydate/layui 触发方式、提交=保存+「提交流程」两步、审批链 iSelCode 分支、菜单定位坑与 ego_js 排障；含产物路径与未决风险（凭据明文、未做真实提交验证）。",
+      "status": "active",
+      "filename": "oa-dsh-ego-browser-ef833a05.md",
+      "relativePath": "documents/active/oa-dsh-ego-browser-ef833a05.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "mnemon-run-v1-f9b309c5-d4af-43e5-b28e-dd1a002b3264"
+      ],
+      "createdAt": "2026-11-16T06:27:34.204Z",
+      "updatedAt": "2026-11-16T06:27:34.204Z",
+      "lastAccessedAt": "2026-11-16T06:27:34.204Z",
+      "revision": 1,
+      "contentHash": "531c5c75460c0ffe79204bd70ab0d0afdd20557b4428add1935f84ffa2eed0f0",
+      "sizeBytes": 6359,
       "memoryBodyIds": []
     }
   ]

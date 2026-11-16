@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "35ef89aaa2ffa36298577f9686347d905f29f2800d91ae92ee9d15f7bef4ae8e",
     "payload/runtime/USER.md": "7331df8c07da69c2514bc82273f1e4e2fa47372474c9025c96074f8efd4ac2b2",
     "payload/runtime/MEMORY.md": "9528af732ed8b65a40d2f92c87c78d5b6343d94410c2714463b551b3afe27b12",
-    "payload/documents/index.json": "48f3a35d87fb4b5b727f425c46ac8f96914fac3b38c7061bafdb1d581a95779e",
+    "payload/documents/index.json": "b2894ea5a5bc6e9b4476d28b6d58fb29e43bc7e9ad84134c2f1a6eb75970a8b1",
     "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
     "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
     "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
@@ -45,6 +45,7 @@
     "payload/documents/active/f-137-026-191-63-gb-7c27665e.md": "68030869de974114fe8e839330a7940ce7dd27c4eb505365abba1f6a37693789",
     "payload/documents/active/dsh-mineru-docx-dsh-0-2-2-rc-1-b7c59b01.md": "c1ee623e25bc5a09c5409b7c31208e2da1235d8a35d136a6b57851c7b130f6c5",
     "payload/documents/active/docx-markdown-2026-11-5a3b7148.md": "6a49a13b438e0f5a52e469f5e251886252e1536a1a8036574600bcfcbaba0ef6",
+    "payload/documents/active/oa-dsh-ego-browser-ef833a05.md": "cdcdb267ae64e28d489674ad3b4441d9eeb89d6251ff63553a38fdbb765336df",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
