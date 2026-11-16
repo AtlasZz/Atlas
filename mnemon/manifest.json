@@ -2,10 +2,10 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-15T11:52:45.000Z",
+  "exportedAt": "2026-11-16T01:47:59.023Z",
   "source": {
     "plugin": "dsh-mnemon",
-    "pluginVersion": "0.5.45"
+    "pluginVersion": "0.5.46"
   },
   "components": [
     "runtime",
@@ -36,102 +36,102 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-15T11:52:45.000Z",
+    "pushedAt": "2026-11-16T01:47:59.023Z",
     "machine": {
-      "id": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
-      "label": "ZY-HOME",
-      "createdAt": "2026-11-08T12:21:15.545Z"
+      "id": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
+      "label": "DESKTOP-A9VSBJ5",
+      "createdAt": "2026-11-09T06:45:38.463Z"
     },
     "tombstones": [
       {
         "target": "user",
         "contentHash": "350e23b9f2cc1c71154bb3aee6944aed0540e1c58c1bc6da7289e42cc2a2728d",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "ac8bc0d7e7bd7c75559080889a29a41837d7b0b3e4917ed58b3d0984f62663db",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "740691baaa3ed54c78ac20a5bf5118d42a49d8038e2ebd07bee9d897f1db9572",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "user",
         "contentHash": "2fb8fc81b2c9b1ead808296ab62f8e821b32d03764a62165e5ece5209342ff09",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "9b1e97220e9048fcc43ca793279fb968af6de6de7702f4de8feb82ad907c5d12",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "190736d4087d98924f4fd68b2fa09b00f2f59b6053e1f9e86d7b8ec2c8bfb546",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "user",
         "contentHash": "5ee8fc997157a4b394436fd518abe8dd0fc83538ebfdddaf2451b6f138dab4ad",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "91e37b1f1ab5b187314ac86e0d2c1f261c30e88ddc6fc6c14bf17d1c92a732c4",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "dd12438df8d488cb5535f623a24f0f0e5419d1c618479f5540b918a8f7fd4b9d",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "db524ba7a5146a6fb7535b5b426e821feb172d9300c6d50b450e3448a607579d",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "user",
         "contentHash": "50c929018c04ca96ab878d006244ce342d14b94055df366215153deb885bc429",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "dd4a898f842c6cc1111277c7d4c7eecc4aebd95338c239a5f43aefc75dfd0038",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "f09b7d14af074f755bccd5ddf10bf86bb435a49c30c6ee72e0d8a1977e0eb0fa",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "e8d932e76d24a5585a162cb856db1e8edab052c59cf8b1b6a884e2c9cf7f5fe2",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       },
       {
         "target": "memory",
         "contentHash": "968e7bb7cd2d4a0b8af925eb03863329dd46a27e5be1d0198d346308a44febe3",
-        "deletedAt": "2026-11-15T11:52:44.903Z",
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6"
+        "deletedAt": "2026-11-16T01:47:59.023Z",
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
       }
     ]
   }
