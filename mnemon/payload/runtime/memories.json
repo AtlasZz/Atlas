@@ -60,6 +60,18 @@
         "label": "DESKTOP-A9VSBJ5",
         "at": "2026-11-09T08:53:47.761Z"
       }
+    },
+    {
+      "content": "chinese-official-writing 技能（~/.dsh/skills/chinese-official-writing）frontmatter 设 disable-model-invocation: true：模型无法自动选中或调用，也不出现在模型可见技能目录中；只能由用户在消息开头以 /chinese-official-writing 显式触发，命令嵌在正文中（如句末追加）不会被宿主识别，表现为\"技能不可用\"。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-16T02:41:39.494Z",
+      "updated_at": "2026-11-16T02:41:39.494Z",
+      "origin": {
+        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
+        "label": "DESKTOP-A9VSBJ5",
+        "at": "2026-11-16T02:41:39.494Z"
+      }
     }
   ]
 }
