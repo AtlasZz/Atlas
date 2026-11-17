@@ -60,6 +60,30 @@
         "label": "DESKTOP-A9VSBJ5",
         "at": "2026-11-09T08:53:47.761Z"
       }
+    },
+    {
+      "content": "DSH 技能 frontmatter 的 name 必须匹配 /^[a-z0-9]+(?:-[a-z0-9]+)*$/，否则加载器只记一条 \"invalid skill name\" 警告并静默丢弃（技能不出现在清单，skill 工具也找不到）。技能市场导入的 MinerU 技能原名 \"MinerU Document Extractor\"（带空格大写）因此失效，已改为 mineru-document-extractor；该目录里重新导入会再次被覆写坏掉。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-17T02:38:42.374Z",
+      "updated_at": "2026-11-17T02:38:42.374Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-17T02:38:42.374Z"
+      }
+    },
+    {
+      "content": "mineru-open-api v0.5.9 已全局安装（C:\\Users\\zhouy\\AppData\\Roaming\\npm\\mineru-open-api，Go 编译的单文件 CLI，装的是 npm 包装）。flash-extract 免 token，2026-11-17 实测可用；extract/crawl 需 MINERU_TOKEN（mineru.net 申请）。DSH 沙箱内 npm 默认缓存 C:\\Users\\zhouy\\AppData\\Local\\npm-cache 写会 EPERM，全局安装需 danger-full-access。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-17T02:38:42.417Z",
+      "updated_at": "2026-11-17T02:38:42.417Z",
+      "origin": {
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d",
+        "label": "ZY-LENOVO",
+        "at": "2026-11-17T02:38:42.417Z"
+      }
     }
   ]
 }
