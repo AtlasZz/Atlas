@@ -2,10 +2,10 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-17T08:06:16.213Z",
+  "exportedAt": "2026-11-17T08:55:12.973Z",
   "source": {
     "plugin": "dsh-mnemon",
-    "pluginVersion": "0.5.46"
+    "pluginVersion": "0.5.45"
   },
   "components": [
     "runtime",
@@ -36,11 +36,11 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-17T08:06:16.213Z",
+    "pushedAt": "2026-11-17T08:55:12.973Z",
     "machine": {
-      "id": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
-      "label": "DESKTOP-A9VSBJ5",
-      "createdAt": "2026-11-09T06:45:38.463Z"
+      "id": "c6567d91-6aa9-4134-b32b-0371372c456d",
+      "label": "ZY-LENOVO",
+      "createdAt": "2026-11-09T06:54:51.839Z"
     },
     "tombstones": [
       {
@@ -148,14 +148,14 @@
       {
         "target": "memory",
         "contentHash": "8ed982a35beb9f8509146ba0770c0375f4a08a2b2c99307a3346344e5eda566f",
-        "deletedAt": "2026-11-17T08:06:15.851Z",
-        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
+        "deletedAt": "2026-11-17T08:55:12.973Z",
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d"
       },
       {
         "target": "memory",
         "contentHash": "3255699c55f6fffa91f6cd0942f7ce2009bb7fcc765451ed6251c36dca62fe26",
-        "deletedAt": "2026-11-17T08:06:15.851Z",
-        "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522"
+        "deletedAt": "2026-11-17T08:55:12.973Z",
+        "machine": "c6567d91-6aa9-4134-b32b-0371372c456d"
       }
     ]
   }
