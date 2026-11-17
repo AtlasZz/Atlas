@@ -2,6 +2,6 @@
 §
 文档转写时手写批注默认不识别、不转换（用户明确要求记住）。
 §
-DSH 技能 frontmatter 的 name 必须匹配 /^[a-z0-9]+(?:-[a-z0-9]+)*$/，否则加载器只记一条 "invalid skill name" 警告并静默丢弃（技能不出现在清单，skill 工具也找不到）。技能市场导入的 MinerU 技能原名 "MinerU Document Extractor"（带空格大写）因此失效，已改为 mineru-document-extractor；该目录里重新导入会再次被覆写坏掉。
+DSH 技能 frontmatter 的 name 必须匹配 /^[a-z0-9]+(?:-[a-z0-9]+)*$/，否则加载器静默丢弃该技能：不出现在清单，`/` 菜单和 skill 工具都找不到，也没有报错提示。技能市场导入的 MinerU 技能原名 "MinerU Document Extractor"（含空格大写）因此失效；本机已改为 name: mineru-document-extractor，目录仍是 ~/.dsh/skills/miner-u-document-extractor（注意 skills-manager 无该技能管理记录，不会被来源回写覆盖，但重新导入会再次覆写坏掉）。编辑前需 danger-full-access，工作区外的技能目录不在 workspace-write 范围内；改完保存即热加载生效。
 §
-mineru-open-api v0.5.9 已全局安装（C:\Users\zhouy\AppData\Roaming\npm\mineru-open-api，Go 编译单文件 CLI + npm 壳）。flash-extract 免 token 可用；2026-11-17 已配置 MINERU_TOKEN 到 C:\Users\zhouy\.mineru\config.yaml，extract 精度模式实测跑通（上限 200MB/600 页，支持 vlm/pipeline/html、--ocr、--pages、md/html/latex/docx/json）。注意 `auth --verify` 只校验 token 格式，真实验证必须跑一次 extract。DSH 沙箱内 npm 默认缓存 EPERM、写 ~/.mineru 需 danger-full-access。
+mineru-open-api v0.5.9 已全局安装在本机（C:\Users\ZY-WORK\AppData\Roaming\npm\mineru-open-api.cmd，已在 PATH）。flash-extract 免 token；MINERU_TOKEN 已配置到 C:\Users\ZY-WORK\.mineru\config.yaml（token source: config），extract 精度模式实测跑通（13 页 PDF → md + images 正常，--model vlm 可用，支持 md/html/latex/docx/json、--ocr --pages 批量）。注意 `auth --verify` 只校验格式，真实验证必须跑一次 extract；写 ~/.mineru 需 danger-full-access。
