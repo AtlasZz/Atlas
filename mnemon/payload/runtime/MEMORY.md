@@ -2,7 +2,7 @@
 §
 文档转写时手写批注默认不识别、不转换（用户明确要求记住）。
 §
-DSH 技能 frontmatter 的 name 必须匹配 /^[a-z0-9]+(?:-[a-z0-9]+)*$/，否则加载器静默丢弃该技能：不出现在清单，`/` 菜单和 skill 工具都找不到，也没有报错提示。技能市场导入的 MinerU 技能原名 "MinerU Document Extractor"（含空格大写）因此失效；本机已改为 name: mineru-document-extractor，目录仍是 ~/.dsh/skills/miner-u-document-extractor（注意 skills-manager 无该技能管理记录，不会被来源回写覆盖，但重新导入会再次覆写坏掉）。编辑前需 danger-full-access，工作区外的技能目录不在 workspace-write 范围内；改完保存即热加载生效。
+DSH 技能无法由模型加载有两个独立原因（都无报错）：① frontmatter 的 name 必须匹配 /^[a-z0-9]+(?:-[a-z0-9]+)*$/；② frontmatter 若写 `disable-model-invocation: true`，DSH 解析器会令 modelInvocable=false——技能仍出现在用户 `/` 菜单但不在模型清单里，skill 工具返回 "not available for model invocation"。MinerU 技能（市场导入，原名 "MinerU Document Extractor"）两条都中，已改为 name: mineru-document-extractor 并删掉 disable-model-invocation 行；目录仍是 ~/.dsh/skills/miner-u-document-extractor，改完保存即热加载生效。注意 skills-manager 无该技能管理记录，重装不覆盖，但重新从市场导入会再次覆写坏掉（需重做这两处）。改 ~/.dsh 需 danger-full-access。
 §
 mineru-open-api v0.5.9 已全局安装在本机（C:\Users\ZY-WORK\AppData\Roaming\npm\mineru-open-api.cmd，已在 PATH）。flash-extract 免 token；MINERU_TOKEN 已配置到 C:\Users\ZY-WORK\.mineru\config.yaml（token source: config），extract 精度模式实测跑通（13 页 PDF → md + images 正常，--model vlm 可用，支持 md/html/latex/docx/json、--ocr --pages 批量）。注意 `auth --verify` 只校验格式，真实验证必须跑一次 extract；写 ~/.mineru 需 danger-full-access。
 §
