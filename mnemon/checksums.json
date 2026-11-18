@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "55f6be0bf9ad1d81beec38da7aa2f073dadd84da0ecab3dfd51a7a6ca7d1c674",
     "payload/runtime/USER.md": "7331df8c07da69c2514bc82273f1e4e2fa47372474c9025c96074f8efd4ac2b2",
     "payload/runtime/MEMORY.md": "da74b796d0f6ce6ff861cf8e29e9626a96bb9f42e5816f2a2c9d3bcb872e69cd",
-    "payload/documents/index.json": "4e36c5740b6b87c9786f4ed11781035e17edd3497a2870a2e8fc4a96bb6ebc2e",
+    "payload/documents/index.json": "d6b7e39ffde1f3d4923afab84984b4785f40490a27cf9eee531fccde17275694",
     "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
     "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
     "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
@@ -50,6 +50,8 @@
     "payload/documents/active/dsh-skill-md-frontmatter-2f980ddd.md": "dcd0ffc0c8e4f841375dc6de4176ba68eb3cc78ae5f121e1a1adcb6cf6916c20",
     "payload/documents/active/mineru-open-api-cli-token-model-ocr-2026-11-17-5698d79a.md": "165bd7abb4aa02e2924115d56bcea4d5bfc62ed42429dd2b8f2278748b0e44f8",
     "payload/documents/active/oa-oa-project-registration-e954be92.md": "fb13630cb0d676ceab321c19e700bec3cbb04cc523a2bb14b90fa23c4796eeea",
+    "payload/documents/active/docx-markdown-mineru-2026-11-c45c5253.md": "38afaf4eaf213ed79e16c1b659124dbdf0fa939c7d11d44d16925fe8a07045f6",
+    "payload/documents/active/2026-11-a3adc13a.md": "2e8c090274f8e4d8aa3dd2fad77093920ba66bd94d6e741f0f119bc94fd11e99",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

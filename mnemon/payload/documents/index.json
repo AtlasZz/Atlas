@@ -140,7 +140,7 @@
       ],
       "createdAt": "2026-11-05T04:35:48.151Z",
       "updatedAt": "2026-11-05T04:35:48.151Z",
-      "lastAccessedAt": "2026-11-17T08:15:20.127Z",
+      "lastAccessedAt": "2026-11-18T01:58:39.064Z",
       "revision": 1,
       "contentHash": "9fc79663a0a1dcba085fdda54d168a3869be7c2a5303df1c094f9927296abfe8",
       "sizeBytes": 6044,
@@ -162,7 +162,7 @@
       ],
       "createdAt": "2026-11-05T04:48:18.000Z",
       "updatedAt": "2026-11-05T04:48:18.000Z",
-      "lastAccessedAt": "2026-11-17T07:59:55.827Z",
+      "lastAccessedAt": "2026-11-18T01:58:39.064Z",
       "revision": 1,
       "contentHash": "2bdb9ae08483663d0b074cac433151c3f11952a783efffd76212cf943bdafac8",
       "sizeBytes": 4930,
@@ -183,7 +183,7 @@
       ],
       "createdAt": "2026-11-05T06:55:29.024Z",
       "updatedAt": "2026-11-05T06:55:29.024Z",
-      "lastAccessedAt": "2026-11-17T08:47:41.486Z",
+      "lastAccessedAt": "2026-11-18T01:58:39.064Z",
       "revision": 1,
       "contentHash": "18a550a1a39ad6b8bc966b642a31d0012934ef716a50d23728af56844968c2c4",
       "sizeBytes": 5790,
@@ -268,7 +268,7 @@
       ],
       "createdAt": "2026-11-07T12:56:35.238Z",
       "updatedAt": "2026-11-07T12:56:35.238Z",
-      "lastAccessedAt": "2026-11-09T08:54:29.531Z",
+      "lastAccessedAt": "2026-11-18T01:56:00.618Z",
       "revision": 1,
       "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
       "sizeBytes": 5382,
@@ -335,7 +335,7 @@
       ],
       "createdAt": "2026-11-09T09:22:19.569Z",
       "updatedAt": "2026-11-09T09:22:19.569Z",
-      "lastAccessedAt": "2026-11-10T04:42:59.283Z",
+      "lastAccessedAt": "2026-11-18T01:56:00.618Z",
       "revision": 1,
       "contentHash": "3b6977846308f1aeec05d5c3c4c61c711438460bd184b85d18711eef2ad5201b",
       "sizeBytes": 7913,
@@ -602,7 +602,7 @@
       ],
       "createdAt": "2026-11-09T11:56:18.720Z",
       "updatedAt": "2026-11-09T11:56:18.720Z",
-      "lastAccessedAt": "2026-11-09T12:22:11.563Z",
+      "lastAccessedAt": "2026-11-18T01:56:00.618Z",
       "revision": 1,
       "contentHash": "8d5931dc8fa77d91413cb2f8e0fabfebafad30a8925a8d51bf3edbc272f5ff0f",
       "sizeBytes": 7279,
@@ -839,7 +839,7 @@
       ],
       "createdAt": "2026-11-13T12:13:08.019Z",
       "updatedAt": "2026-11-13T12:13:08.019Z",
-      "lastAccessedAt": "2026-11-13T12:13:08.019Z",
+      "lastAccessedAt": "2026-11-18T01:56:00.618Z",
       "revision": 1,
       "contentHash": "69ca87f7a7ed9b746b4d7f2b7b67a42d37d6ced8c21205257c459e4c8b7f2356",
       "sizeBytes": 3738,
@@ -945,6 +945,53 @@
       "revision": 1,
       "contentHash": "f2ffdee174aae074bc3b9fc60b18d39ac7d3bd94133fb2fdf5a019fb1c3e13cd",
       "sizeBytes": 7532,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "c45c5253-d688-4115-bcde-f02052c55409",
+      "title": "《市县级国土空间近期实施规划编制指南》DOCX→Markdown 转换记录（MinerU 目录丢失修复，2026-11）",
+      "description": "浙江省《市县级国土空间近期实施规划（2026—2030年）编制指南（试行）》DOCX 用 mineru-open-api 转 Markdown 的源件、产物、TOC 重建做法与内容核查结论，含原文自身编号特点。",
+      "status": "active",
+      "filename": "docx-markdown-mineru-2026-11-c45c5253.md",
+      "relativePath": "documents/active/docx-markdown-mineru-2026-11-c45c5253.md",
+      "sourcePaths": [
+        "1027市县级近期实施规划编制指南（试行）.md",
+        "mineru_out/1027guide/1027市县级近期实施规划编制指南（试行）(1).md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-a4f470b1-1578-4346-9492-1ad136dec0fa"
+      ],
+      "createdAt": "2026-11-18T01:56:06.962Z",
+      "updatedAt": "2026-11-18T01:56:06.962Z",
+      "lastAccessedAt": "2026-11-18T01:58:39.064Z",
+      "revision": 1,
+      "contentHash": "6d1a0c1d5004bc0d7f892a7ddecee03d9f3903df4411ef54767e7478709b7537",
+      "sizeBytes": 4652,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a3adc13a-2218-4032-be5c-d6855b592e04",
+      "title": "《国土空间近期实施规划编制要求与典型案例综述》成稿与结论记录（2026-11）",
+      "description": "综述成稿的两份交付件、国家/地方制度供给与八市一区案例比较的核心结论、五方面争议与浙江建议，以及 Markdown→中文学术排版 DOCX 的生成与校验做法和引用局限。",
+      "status": "active",
+      "filename": "2026-11-a3adc13a.md",
+      "relativePath": "documents/active/2026-11-a3adc13a.md",
+      "sourcePaths": [
+        "国土空间近期实施规划编制要求与典型案例综述.md",
+        "国土空间近期实施规划编制要求与典型案例综述.docx",
+        "_md2docx_review.py",
+        "_verify_docx.py",
+        "_final_check.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-415aa871-cc78-4944-bc86-379f8cb3f5a1"
+      ],
+      "createdAt": "2026-11-18T01:58:57.495Z",
+      "updatedAt": "2026-11-18T01:58:57.495Z",
+      "lastAccessedAt": "2026-11-18T01:58:57.495Z",
+      "revision": 1,
+      "contentHash": "15eee721b170d39175df2e2990a12385c0db5c7f3e83f28cd63186cbfc190cc4",
+      "sizeBytes": 7362,
       "memoryBodyIds": []
     }
   ]
