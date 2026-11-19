@@ -268,7 +268,7 @@
       ],
       "createdAt": "2026-11-07T12:56:35.238Z",
       "updatedAt": "2026-11-07T12:56:35.238Z",
-      "lastAccessedAt": "2026-11-18T01:56:00.618Z",
+      "lastAccessedAt": "2026-11-19T08:18:33.412Z",
       "revision": 1,
       "contentHash": "92fd7d8196893ae63ce6f2f1444647cc2741df133c4a34575f0a0eb7b9f9fd34",
       "sizeBytes": 5382,
@@ -356,7 +356,7 @@
       ],
       "createdAt": "2026-11-07T13:45:21.516Z",
       "updatedAt": "2026-11-07T13:45:21.516Z",
-      "lastAccessedAt": "2026-11-08T12:57:11.899Z",
+      "lastAccessedAt": "2026-11-19T08:18:33.412Z",
       "revision": 1,
       "contentHash": "063c82de7dbdef48464c9bc368c8b78ecbc3d203a7140055f02ba2b923d50330",
       "sizeBytes": 3860,
@@ -1014,10 +1014,34 @@
       ],
       "createdAt": "2026-11-18T08:41:00.721Z",
       "updatedAt": "2026-11-18T08:41:00.721Z",
-      "lastAccessedAt": "2026-11-18T08:41:00.721Z",
+      "lastAccessedAt": "2026-11-19T08:18:33.412Z",
       "revision": 1,
       "contentHash": "059f12ca7189a19d80d89cc4562e0d1bcccfa15aedc6c1dd5f716a2842060e38",
       "sizeBytes": 5894,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "2a3077c3-2734-4897-8a38-474f0a45b9f6",
+      "title": "用 dsh-image-gen 重绘 PPT 示意图：语义保持、视觉区分与中文小字自查流程（永农「认·连·调」页）",
+      "description": "2026-11-19 在 D:\\Workspace\\DSHarness 完成的一次「读懂 PPT 示意图含义 → 用 dsh-image-gen 重画且视觉上不可辨认照搬」的完整做法：用户五轮验收口径、语义到图形的映射、风格区分策略、生图后裁剪放大核对中文的检查项与模型常见缺陷、失败重试与交付口径。",
+      "status": "active",
+      "filename": "dsh-image-gen-ppt-2a3077c3.md",
+      "relativePath": "documents/active/dsh-image-gen-ppt-2a3077c3.md",
+      "sourcePaths": [
+        "dsh-image-gen/image-5c958f0c.png",
+        "dsh-image-gen/image-c98e7d13.png",
+        "dsh-image-gen/crop_tiankan.png",
+        "dsh-image-gen/v6_core2.png"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-6053c695-aa8b-4dd0-8018-f7029a2a6ec7"
+      ],
+      "createdAt": "2026-11-19T08:18:50.460Z",
+      "updatedAt": "2026-11-19T08:18:50.460Z",
+      "lastAccessedAt": "2026-11-19T08:18:50.460Z",
+      "revision": 1,
+      "contentHash": "6562adc13cc0c2f27229cf229d29c15ecd145db27e12c40ff159c8d7e9df858a",
+      "sizeBytes": 5819,
       "memoryBodyIds": []
     }
   ]
