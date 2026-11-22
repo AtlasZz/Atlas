@@ -62,6 +62,30 @@
       }
     },
     {
+      "content": "DSH 桌面 profile（~/.dsh/profiles/desktop）中 dsh-prompt-forge 与内置实验插件 @deepseek-ai/dsh-experimental-client-ui-voice-input 争夺 conversation.input.activity（single 单座位槽位），两者都不写 priority 默认 0，同优先级注册会直接抛错而非覆盖。用户选择保留 prompt-forge（✨ 按钮 / Ctrl+Alt+E），已在 cordis.patch.yml 末尾加 `- id: ui-voice-input` + `name: @deepseek-ai/dsh-experimental-client-ui-voice-input` + `disabled: true`；语音转写后端 speech-to-text / speech-to-text-sensevoice / api-speech-to-text 仍保持启用。恢复语音输入只需删掉该条目或改 disabled: false。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-17T10:52:28.714Z",
+      "updated_at": "2026-11-17T10:52:28.714Z",
+      "origin": {
+        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
+        "label": "ZY-HOME",
+        "at": "2026-11-17T10:52:28.714Z"
+      }
+    },
+    {
+      "content": "2025-11-17 18:40 左右 ~/.dsh/profiles/desktop/cordis.patch.yml 被重写，image-gen 自定义 provider（openai-compat，https://ai.iisbo.com/v1，gpt-image-2.5-sunburst）、ui-theme、better-sidebar 等条目丢失，图片生成回落到 google/gemini-3.1-flash-image；旧配置备份在 cordis.patch.yml.bak-1794567780474（11-13 18:34）。用户当时选择「先不恢复」。",
+      "target": "memory",
+      "importance": "low",
+      "created_at": "2026-11-17T10:52:28.738Z",
+      "updated_at": "2026-11-17T10:52:28.738Z",
+      "origin": {
+        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
+        "label": "ZY-HOME",
+        "at": "2026-11-17T10:52:28.738Z"
+      }
+    },
+    {
       "content": "DSH 技能无法由模型加载有两个独立原因（都无报错）：① frontmatter 的 name 必须匹配 /^[a-z0-9]+(?:-[a-z0-9]+)*$/；② frontmatter 若写 `disable-model-invocation: true`，DSH 解析器会令 modelInvocable=false——技能仍出现在用户 `/` 菜单但不在模型清单里，skill 工具返回 \"not available for model invocation\"。MinerU 技能（市场导入，原名 \"MinerU Document Extractor\"）两条都中，已改为 name: mineru-document-extractor 并删掉 disable-model-invocation 行；目录仍是 ~/.dsh/skills/miner-u-document-extractor，改完保存即热加载生效。注意 skills-manager 无该技能管理记录，重装不覆盖，但重新从市场导入会再次覆写坏掉（需重做这两处）。改 ~/.dsh 需 danger-full-access。",
       "target": "memory",
       "importance": "critical",
@@ -107,30 +131,6 @@
         "machine": "19d2ecfb-b82f-4172-b01c-a0fb9671a522",
         "label": "DESKTOP-A9VSBJ5",
         "at": "2026-11-17T08:42:01.072Z"
-      }
-    },
-    {
-      "content": "DSH 桌面 profile（~/.dsh/profiles/desktop）中 dsh-prompt-forge 与内置实验插件 @deepseek-ai/dsh-experimental-client-ui-voice-input 争夺 conversation.input.activity（single 单座位槽位），两者都不写 priority 默认 0，同优先级注册会直接抛错而非覆盖。用户选择保留 prompt-forge（✨ 按钮 / Ctrl+Alt+E），已在 cordis.patch.yml 末尾加 `- id: ui-voice-input` + `name: @deepseek-ai/dsh-experimental-client-ui-voice-input` + `disabled: true`；语音转写后端 speech-to-text / speech-to-text-sensevoice / api-speech-to-text 仍保持启用。恢复语音输入只需删掉该条目或改 disabled: false。",
-      "target": "memory",
-      "importance": "normal",
-      "created_at": "2026-11-17T10:52:28.714Z",
-      "updated_at": "2026-11-17T10:52:28.714Z",
-      "origin": {
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
-        "label": "ZY-HOME",
-        "at": "2026-11-17T10:52:28.714Z"
-      }
-    },
-    {
-      "content": "2025-11-17 18:40 左右 ~/.dsh/profiles/desktop/cordis.patch.yml 被重写，image-gen 自定义 provider（openai-compat，https://ai.iisbo.com/v1，gpt-image-2.5-sunburst）、ui-theme、better-sidebar 等条目丢失，图片生成回落到 google/gemini-3.1-flash-image；旧配置备份在 cordis.patch.yml.bak-1794567780474（11-13 18:34）。用户当时选择「先不恢复」。",
-      "target": "memory",
-      "importance": "low",
-      "created_at": "2026-11-17T10:52:28.738Z",
-      "updated_at": "2026-11-17T10:52:28.738Z",
-      "origin": {
-        "machine": "344f1caa-c991-4e7f-b271-d235a8a56dc6",
-        "label": "ZY-HOME",
-        "at": "2026-11-17T10:52:28.738Z"
       }
     }
   ]
