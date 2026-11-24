@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "689422f93788eef6dc342db4dbdd2d10627bc3921fb2829e17b60b363d1a2799",
     "payload/runtime/USER.md": "7331df8c07da69c2514bc82273f1e4e2fa47372474c9025c96074f8efd4ac2b2",
     "payload/runtime/MEMORY.md": "f2d93e067732e6f74bac58526abbd7230a77b2a4e88fd4a269fd56994b854bcc",
-    "payload/documents/index.json": "8955cc283e4ab91a5001341c9d1cc5a227298cd9c452c1826825c1bc6d712004",
+    "payload/documents/index.json": "f2c1db8b489638a1b28e4283c2f33b9f541cfc2b343eb61a6757e7ec36c231ca",
     "payload/documents/active/dsh-univer-office-desktop-profile-05ff9c79.md": "492906a50ed26064b94b3d69b8255c2c528eb059826ec6d011ac5719f9cf6df5",
     "payload/documents/active/dsh-im-desktop-profile-2026-11-04-27846090.md": "54990b9edf00875d2f8e0f44fde9cdbb951d763bee45f59fa01c9a6a21729e99",
     "payload/documents/active/dsh-im-14-stale-token-2026-11-04-65c1d5f4.md": "1eb5d5d4ff08d7e91744e19c05764d40d4e2092168510f7917d81916dcc22001",
@@ -57,6 +57,8 @@
     "payload/documents/active/dsh-profile-prompt-forge-vs-ui-voice-input-2026--992e9359.md": "1d13cf18b1eea2878cd8f502db5aeba2a68f6f1b0573c1a4e9be3838f5311d2c",
     "payload/documents/active/2-exit-code-0-steamsdk-buildid-26832099-2026-11--b48dc14c.md": "dc6a2d26260206ad30a714f69824585ce6c4edd3e112f8d618155ef9830fecf3",
     "payload/documents/active/2025-54-pdf-markdown-mineru-vlm-2026-11-225a7e4d.md": "7e2a709077ae58da77529fb9174929cf915fa9b5425ad2f0e6242f78f1959e5e",
+    "payload/documents/active/2026-11-26a972da.md": "3c650559f0fbf1d2632591492637e26d02763fb2b60b37bc972b0097c0a47f7c",
+    "payload/documents/active/pillow-2048-1024-2026-11-a033e9b6.md": "12916fcf00cba95f86999d7debf476fffaf855ca10330895c5657cfd6302feb0",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

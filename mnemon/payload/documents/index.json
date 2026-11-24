@@ -93,7 +93,7 @@
       ],
       "createdAt": "2026-11-04T08:40:48.969Z",
       "updatedAt": "2026-11-04T08:40:48.969Z",
-      "lastAccessedAt": "2026-11-13T06:28:20.835Z",
+      "lastAccessedAt": "2026-11-24T07:25:50.140Z",
       "revision": 1,
       "contentHash": "b7ad5f9d089281e442738a1087275bceb748ba6f04e5990b395e153eb9cacec8",
       "sizeBytes": 7765,
@@ -623,7 +623,7 @@
       ],
       "createdAt": "2026-11-10T12:05:10.270Z",
       "updatedAt": "2026-11-10T12:05:10.270Z",
-      "lastAccessedAt": "2026-11-11T01:03:09.710Z",
+      "lastAccessedAt": "2026-11-24T07:25:50.140Z",
       "revision": 1,
       "contentHash": "a045f019b971ea69f820c24770bbef415e354f9092db319400177145044f9985",
       "sizeBytes": 4742,
@@ -647,7 +647,7 @@
       ],
       "createdAt": "2026-11-11T01:03:31.777Z",
       "updatedAt": "2026-11-11T01:03:31.777Z",
-      "lastAccessedAt": "2026-11-13T06:28:20.835Z",
+      "lastAccessedAt": "2026-11-24T07:25:50.140Z",
       "revision": 1,
       "contentHash": "df3ada11c8f46c6b2db86ac6a495a8c8acd1d5bd2845120ad29cca4e7a96a532",
       "sizeBytes": 7107,
@@ -710,7 +710,7 @@
       ],
       "createdAt": "2026-11-10T12:30:00.617Z",
       "updatedAt": "2026-11-10T12:30:00.617Z",
-      "lastAccessedAt": "2026-11-10T12:30:00.617Z",
+      "lastAccessedAt": "2026-11-24T07:25:50.140Z",
       "revision": 1,
       "contentHash": "79f276a460a2ef7ae0d477a786397ebd4ca2288e7f0d964923a1702a5e96cfb5",
       "sizeBytes": 5309,
@@ -1038,7 +1038,7 @@
       ],
       "createdAt": "2026-11-19T08:18:50.460Z",
       "updatedAt": "2026-11-19T08:18:50.460Z",
-      "lastAccessedAt": "2026-11-19T08:18:50.460Z",
+      "lastAccessedAt": "2026-11-24T08:26:12.815Z",
       "revision": 1,
       "contentHash": "6562adc13cc0c2f27229cf229d29c15ecd145db27e12c40ff159c8d7e9df858a",
       "sizeBytes": 5819,
@@ -1103,6 +1103,52 @@
       "revision": 1,
       "contentHash": "df432e8a9bae3d450f3827fc602527852b7516be56db3e407e59d4e4fabbaad7",
       "sizeBytes": 4521,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "26a972da-2307-46b2-b682-bedf75ad3123",
+      "title": "生态保护红线零星建设用地复绿规模折算示意图：图面逻辑、绘图脚本与字形处理（2026-11）",
+      "description": "一张政策逻辑示意图的设计与实现记录：复绿规模A→先保障三类农村用地B→剩余折算为新增城镇建设用地C 的图面组织、Pillow 脚本参数、微软雅黑字形坑与「不写折算系数」的取舍。",
+      "status": "active",
+      "filename": "2026-11-26a972da.md",
+      "relativePath": "documents/active/2026-11-26a972da.md",
+      "sourcePaths": [
+        "draw_schematic.py",
+        "生态保护红线零星建设用地复绿规模折算示意图.png"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-9e68d9c5-e3d9-46f7-ab4d-d63e12a76e8d"
+      ],
+      "createdAt": "2026-11-24T07:26:01.696Z",
+      "updatedAt": "2026-11-24T07:26:01.696Z",
+      "lastAccessedAt": "2026-11-24T08:26:12.815Z",
+      "revision": 1,
+      "contentHash": "a3c524fb4cbfc5e767a75613ef615ae9ca5858382eb3e54265d0a449907f07eb",
+      "sizeBytes": 4813,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a033e9b6-cb8a-4d38-81d2-84faf823963a",
+      "title": "图像编辑接口改不动中文小字时：Pillow 定点去字 + 无损放大（2048×1024 流程图交付记录，2026-11）",
+      "description": "2026-11-23/24 在 D:\\Workspace\\DSHarness 的一次「近期规划编制组织与程序」2:1 蓝色流程图交付：模型编辑接口删不掉标签序号且改错字，改用 Pillow 像素级定点去字（列投影找字块、按底色切片重排）并用线性光 Lanczos + 阈值锐化放大到 4096/6144 宽的完整方法与校验口径。",
+      "status": "active",
+      "filename": "pillow-2048-1024-2026-11-a033e9b6.md",
+      "relativePath": "documents/active/pillow-2048-1024-2026-11-a033e9b6.md",
+      "sourcePaths": [
+        "work/fix_labels.py",
+        "work/upscale_final.py",
+        "dsh-image-gen/image-final-none-numbered.png",
+        "dsh-image-gen/image-final-4096x2048.png"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-2bfb0f2c-7f8d-4c61-861b-945ac860c9c4"
+      ],
+      "createdAt": "2026-11-24T08:26:25.933Z",
+      "updatedAt": "2026-11-24T08:26:25.933Z",
+      "lastAccessedAt": "2026-11-24T08:26:25.933Z",
+      "revision": 1,
+      "contentHash": "ea478b8aa882258a55ff8f483f5a55f024135bba8f18fb1d68f87a49cc3f08a6",
+      "sizeBytes": 5429,
       "memoryBodyIds": []
     }
   ]
