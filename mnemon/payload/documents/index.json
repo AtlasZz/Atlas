@@ -335,7 +335,7 @@
       ],
       "createdAt": "2026-11-09T09:22:19.569Z",
       "updatedAt": "2026-11-09T09:22:19.569Z",
-      "lastAccessedAt": "2026-11-18T01:56:00.618Z",
+      "lastAccessedAt": "2026-11-24T03:22:06.364Z",
       "revision": 1,
       "contentHash": "3b6977846308f1aeec05d5c3c4c61c711438460bd184b85d18711eef2ad5201b",
       "sizeBytes": 7913,
@@ -839,7 +839,7 @@
       ],
       "createdAt": "2026-11-13T12:13:08.019Z",
       "updatedAt": "2026-11-13T12:13:08.019Z",
-      "lastAccessedAt": "2026-11-18T08:40:43.594Z",
+      "lastAccessedAt": "2026-11-24T03:22:06.364Z",
       "revision": 1,
       "contentHash": "69ca87f7a7ed9b746b4d7f2b7b67a42d37d6ced8c21205257c459e4c8b7f2356",
       "sizeBytes": 3738,
@@ -963,7 +963,7 @@
       ],
       "createdAt": "2026-11-18T01:56:06.962Z",
       "updatedAt": "2026-11-18T01:56:06.962Z",
-      "lastAccessedAt": "2026-11-18T08:40:43.594Z",
+      "lastAccessedAt": "2026-11-24T03:22:06.364Z",
       "revision": 1,
       "contentHash": "6d1a0c1d5004bc0d7f892a7ddecee03d9f3903df4411ef54767e7478709b7537",
       "sizeBytes": 4652,
@@ -1014,7 +1014,7 @@
       ],
       "createdAt": "2026-11-18T08:41:00.721Z",
       "updatedAt": "2026-11-18T08:41:00.721Z",
-      "lastAccessedAt": "2026-11-23T08:37:42.140Z",
+      "lastAccessedAt": "2026-11-24T03:22:06.364Z",
       "revision": 1,
       "contentHash": "059f12ca7189a19d80d89cc4562e0d1bcccfa15aedc6c1dd5f716a2842060e38",
       "sizeBytes": 5894,
@@ -1080,6 +1080,29 @@
       "revision": 1,
       "contentHash": "e1672caff08d4041a10b8ab896fcb3d21373df2816ef3a487754b736b9c25559",
       "sizeBytes": 7274,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "225a7e4d-f219-4481-95de-2b2952a24375",
+      "title": "《浙自然资函〔2025〕54号》PDF→Markdown 转换记录（MinerU VLM + 结构化后处理，2026-11）",
+      "description": "77 页浙江省国土空间详细规划三份技术文件 PDF 经 MinerU 精度模式解析、postprocess/step2 结构化整理与量化校验后的成品结构、脚本路径、取舍口径与遗留疑问。",
+      "status": "active",
+      "filename": "2025-54-pdf-markdown-mineru-vlm-2026-11-225a7e4d.md",
+      "relativePath": "documents/active/2025-54-pdf-markdown-mineru-vlm-2026-11-225a7e4d.md",
+      "sourcePaths": [
+        "work_mineru/postprocess.py",
+        "work_mineru/step2.py",
+        "output/浙自然资函2025-54号/浙自然资函2025-54号.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-2dd0fbf0-ec29-4ac2-87f4-aeec26b6d681"
+      ],
+      "createdAt": "2026-11-24T03:22:16.457Z",
+      "updatedAt": "2026-11-24T03:22:16.457Z",
+      "lastAccessedAt": "2026-11-24T03:22:16.457Z",
+      "revision": 1,
+      "contentHash": "df432e8a9bae3d450f3827fc602527852b7516be56db3e407e59d4e4fabbaad7",
+      "sizeBytes": 4521,
       "memoryBodyIds": []
     }
   ]
